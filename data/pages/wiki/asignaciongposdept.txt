@@ -1,0 +1,35 @@
+====== Usuario vs. grupo departamento CAP ======
+
+En este apartado se asignan grupos de departamentos (varios departamentos a la vez) a un usuario para facilitar el manejo y sobre todo para otorgar o retirar permisos, la pantalla principal de este menú se ve así:
+
+{{:wiki:gposdepts.jpg|}}
+Aquí mismo se muestran los botones para la creación de nueva asignación, en la parte superior derecha, en el botón Nuevo.
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la modificación y el segundo (basurero), es para borrar el registro.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+==== Asignar grupo ====
+
+Para poder realizar esta acción deben de existir [[wiki:grupodep | Grupo de departamentos]] y [[wiki:user | Usuarios]] creados.
+
+Para asignar un grupo a un usuario debe dar click en **Nuevo**, se abrirá una pantalla como la siguiente:
+
+{{:wiki:asigngpo.jpg|}}
+
+En esta deberá seleccionar un usuario y un grupo de departamento existentes. Después dar click en **Guardar**.
+
+==== Modificar grupo ==== 
+Al presionar el botón de modificar se verá esta pantalla.
+Aquí se mostrará el usario y los grupos de departamentos asignados, se podrá modificar que grupos tiene asignados, poniendo más o quitando, al finalizar se presiona el botón actualizar, el botón deshacer sirve para poner los campos como estaban originalmente.
+En la esquina superior derecha se encuentra el botón regresar para volver al listado de asignaciones.
+
+==== Eliminar grupo====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+{{ :wiki:departmenteliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.

@@ -1,0 +1,27 @@
+=====Guardias sabatinas=====
+
+En está vista se muestra la lista de las guardias sabatinas ya ingresadas en el sistema.
+{{ :wiki:guardiaindex.png?800 |}}\\
+En la parte superior derecha de la vista se muestra el botón nuevo, para ingresar una nueva guardia.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla. 
+A lado de cada registro se muestran dos botones, el que tiene un icono de lapiz para editar el registro y el bote de basura para eliminar el registro.\\
+==== Crear guardia sabatina ====
+Al presionar el botón nuevo se despliega esta vista.\\
+{{ :wiki:guardiacrear.png?600 |}}\\
+En el cuadro que se muestra se debe llenar primero la fecha, después se elige el empleado al cual se le asignará y se termina con el botón guardar, el campo que dice festivo solo se presiona si el sábado no habrá guardia porque será un día festivo y se descansa, al presionarlo aparecen los siguientes campos.
+{{ :wiki:guardiafestivo.png?600 |}}
+El primero es para seleccionar el día festivo que se le asignará de los previamente ingresados al sistema, el segundo es un campo para comentarios sobre el día festivo.\\
+====Modificar guardia sabatina ====
+Cuando se presiona el botón de modificar (icono de lápiz), este abre la siguiente pantalla.\\
+{{ :wiki:guardiaedit.png?600 |}}\\
+Esto muestra los campos iguales a los de crear pero con la información del registro seleccionado, ahí se hacen las modificaciones y se presiona botón guardar.\\
+====Eliminar Guardia Sabatina====
+Al presionar el botón de eliminar (icono de basurero), este abre el siguiente mensaje.\\
+{{ :wiki:guardiaeliminar.png?600 |}}\\
+Para terminar solo se debe presionar en el botón ok.

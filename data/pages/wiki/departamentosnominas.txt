@@ -1,0 +1,21 @@
+===== Departamentos nóminas=====
+
+En está vista se muestra la lista de los departamentos nóminas ya ingresados en el sistema.\\
+A lado de cada registro se muestran un botón con el icono de lápiz es para la modificación registro, lo único modificable para este catalogo es su departamento CAP predeterminado.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero es para elegir el número de registros que se muestren en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo registro, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+
+==== Crear departamento nóminas====
+No es posible crear departamentos nóminas desde el sistema CAP, se deben sincronizar con el ERP externo.\\
+
+==== Modificar departamento nóminas====
+Al presionar el botón modificar registro se mostrará la siguiente vista.\\
+En esta pantalla se muestra un campo para colocar el departamento predeterminado CAP, basta con seleccionarlo y dar clic en el botón actualizar, en la esquina superior izquierda se encuentra el botón regresar para volver a la página anterior. 
+
+==== Eliminar departamento nóminas====
+No es posible eliminar departamentos nóminas desde el sistema CAP, se deben eliminar en el ERP externo y sincronizar.\\

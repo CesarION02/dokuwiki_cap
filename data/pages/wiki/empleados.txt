@@ -1,0 +1,34 @@
+===== Empleados =====
+
+En está vista se muestra la lista de los empleados ya ingresados en el sistema.\\
+
+{{ :wiki:empleadosindex.png?800 |}}
+\\
+
+A lado de cada registro se muestra un botón, con el icono de lápiz es para la modificación del registro.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Al lado derecho de los botones, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.\\
+
+==== Modificar empleado ====
+
+Al presionar el botón del icono del lápiz (modificar registro) se mostrará la siguiente vista
+
+{{ :wiki:empleadoeditar.png?800 |}}
+\\
+En esta vista se muestra la información como esta guardada y se puede modificar, excepto el nombre del empleado y el número del empleado, al terminar se presiona el botón actualizar, el botón deshacer pone en blanco los campos, en la esquina superior derecha, se encuentra un botón para volver a la vista anterior.
+
+==== Eliminar empledo ====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+
+{{ :wiki:areaeliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.
+
+
+

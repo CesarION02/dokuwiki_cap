@@ -1,0 +1,14 @@
+====== Asignación de puesto y departamento ======
+
+===== 1. Sincronización. =====
+[[wiki:sincronizacion | Sincronización]]
+
+
+===== 2. Asignación de departamento =====
+Esto se realiza por el rol de recursos humanos. 
+Una vez sincronizados los empleados para que aparezcan en el sistema CAP, lo que se debe de hacer es revisar cuales de ellos aún no tienen un departamento asignado, esto se ve en: [[wiki:asignacionpstoydeptopen | Puesto y departamento pendientes]]
+
+
+===== 3. Asignación de puesto. =====
+Cuando el departamento ya ha sido asignado al empleado ahora el rol de jefe de área debe asignar el puesto al empleado.
+Esto se hace en este apartado [[wiki:asignaciondepuesto | Asignar empleados y puestos]]  

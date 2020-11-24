@@ -1,0 +1,106 @@
+
+<h2 class="sectionedit1" id="dokuwiki_documentacion">Dokuwiki (Documentación)</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Dokuwiki (Documentaci\u00f3n)&quot;,&quot;hid&quot;:&quot;dokuwiki_documentacion&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-36&quot;} -->
+<h3 class="sectionedit2" id="instalacion">Instalación</h3>
+<div class="level3">
+
+<p>
+Es el sistema utilizado para la generación de los manuales necesarios.<br/>
+
+Manera de instalarlo y configurarlo es la siguiente.<br/>
+
+La carpeta se llama dokuwiki, la cual se debe copiar en el servidor donde se pondrá el sistema, primero se debe ingresar en el directorio C:/, buscar la carpeta xampp, dentro se busca la carpeta htdocs, y ahí se pega la carpeta de dokuwiki.<br/>
+
+Con esto el sistema estará en funcionamiento.<br/>
+
+Para checar que sea correcta la instalación se ingresa la siguiente url localhost:8080/dokuwiki, lo cual debe mostrar la siguiente pantalla.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki1.png" class="media" title="wiki:dokuwiki1.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=f90860&amp;media=wiki:dokuwiki1.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+Para ingresar al sistema como administrador el usuario y contraseña son los siguientes:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Admin</div>
+</li>
+<li class="level1"><div class="li"> swaplicado</div>
+</li>
+</ul>
+
+<p>
+Se recomienda después de la instalación el cambio de la contraseña, para esto en la esquina superior derecha hay un menú con el icono de herramienta, se presiona y se elige la opción Administrar.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki2.png" class="media" title="wiki:dokuwiki2.png"><img src="/dokuwiki/lib/exe/fetch.php?w=300&amp;tok=a6e435&amp;media=wiki:dokuwiki2.png" class="mediacenter" alt="" width="300" /></a><br/>
+
+Se mostrará la siguiente pantalla.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki3.png" class="media" title="wiki:dokuwiki3.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=fdf479&amp;media=wiki:dokuwiki3.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+En esta pantalla se debe seleccionar la opción Administración de usuarios, lo cual abre la siguiente pantalla.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki4.png" class="media" title="wiki:dokuwiki4.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=10bd60&amp;media=wiki:dokuwiki4.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+Se muestra un listado de los usuarios registrados en el sistema, te muestra usuario, nombre, correo y grupo al que pertenece, para modificar los datos se presiona sobre el usuario lo cual moverá la pantalla hacia abajo mostrando el siguiente formulario.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki5.png" class="media" title="wiki:dokuwiki5.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=7f86a4&amp;media=wiki:dokuwiki5.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+En el formulario de la derecha se ven los datos del usuario seleccionado, los cuales se pueden modificar, ahí se modifica la contraseña y se da sobre botón guardar, y con esto se terminará el proceso.<br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Instalaci\u00f3n&quot;,&quot;hid&quot;:&quot;instalacion&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;37-1725&quot;} -->
+<h3 class="sectionedit3" id="control_de_acceso">Control de acceso</h3>
+<div class="level3">
+
+<p>
+El control de acceso es fundamental para que solo el usuario administrador pueda editar, subir archivos, eliminar y crear nuevas pantallas, al igual que ver los manuales de operación y manual de mantenimiento. Los usuarios que no sean administrador solo podrán ver el archivo de manual de usuario sin poder hacer ninguna modificación.<br/>
+
+Para el correcto uso de control de acceso se debe verificar que se tengan las reglas, a esta parte del sistema se puede acceder desde la ventana de administración.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki6.png" class="media" title="wiki:dokuwiki6.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=49289c&amp;media=wiki:dokuwiki6.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+Se debe presionar el botón administración de lista de control de acceso lo que mostrará la siguiente ventana.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki7.png" class="media" title="wiki:dokuwiki7.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=273588&amp;media=wiki:dokuwiki7.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+La primera regla para lo que sirve es que todos los que entren en el link tengan o no usuario no puedan ni ver, ni editar el manual de operación.<br/>
+
+La segunda es la misma regla anterior pero para los que tengan usuario creado.<br/>
+
+La tercera regla sirve para que todos los que entren en el link sin usuario no puedan ni ver, ni editar el manual de mantenimiento.<br/>
+
+La cuarta regla sirve para que todos los que entren en el link sin usaruio puedan solo ver el manual de usuarios.<br/>
+
+La quinta regla sirve para que todos los usuarios registrados puedan solo ver el manual de usuario.<br/>
+
+La sexta le da al grupo de usuarios administrador la posibilidad de editar todo en la dokuwiki.<br/>
+
+Si alguna de las reglas no existe la manera de crearlas es la siguiente, en la misma pantalla arriba se muestra el siguiente formulario.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki8.png" class="media" title="wiki:dokuwiki8.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=e39617&amp;media=wiki:dokuwiki8.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+En el cual en el select que dice permiso para, seleccionas el grupo al cual se hará la regla y después abajo se elige el permiso que tendrá.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Control de acceso&quot;,&quot;hid&quot;:&quot;control_de_acceso&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1726-3438&quot;} -->
+<h3 class="sectionedit4" id="creacion_de_usuarios">Creación de usuarios</h3>
+<div class="level3">
+
+<p>
+Para la creación de nuevos usuarios se puede acceder desde la pantalla de administración que es la siguiente.&#039;&#039;
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki6.png" class="media" title="wiki:dokuwiki6.png"><img src="/dokuwiki/lib/exe/fetch.php?w=800&amp;tok=49289c&amp;media=wiki:dokuwiki6.png" class="mediacenter" alt="" width="800" /></a><br/>
+
+En esta pantalla se debe seleccionar la opción administración de usuarios para abrir la siguiente pantalla, en la cual esta el siguiente formulario.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Adoku&amp;media=wiki:dokuwiki9.png" class="media" title="wiki:dokuwiki9.png"><img src="/dokuwiki/lib/exe/fetch.php?w=600&amp;tok=379982&amp;media=wiki:dokuwiki9.png" class="mediacenter" alt="" width="600" /></a><br/>
+
+Se tienen que llenar todos los campos para la creación, en el campo grupo si se creará un usuario normal debe de llevar el nombre user, para el correcto uso del control de acceso.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Creaci\u00f3n de usuarios&quot;,&quot;hid&quot;:&quot;creacion_de_usuarios&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;3439-&quot;} -->

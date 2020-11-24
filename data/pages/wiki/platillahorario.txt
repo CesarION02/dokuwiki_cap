@@ -1,0 +1,45 @@
+=====Plantillas de horarios fijos=====
+
+En está vista se muestra la lista de plantillas de horario ya ingresados en el sistema.\\
+
+{{ :wiki:plantillaindex.png?800 |}}
+\\
+
+Aquí mismo se muestra el botón para la creación de nuevas plantillas, en la parte superior derecha.
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la modificación y el segundo (basurero), es para eliminar el registro.\\
+Bajo el botón de nuevo registro, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+==== Crear plantilla de horarios ====
+
+Al presionar el botón de Nuevo en la vista anterior se mostrará la siguiente vista
+
+{{ :wiki:scheduleindex.png?800 |}}
+\\
+En esta vista se captura primero el nombre de la plantilla, en el siguiente campo se capturan las horas extra que generan automáticamente la plantilla, el siguiente campo se elige en el caso de requerir recorte para el reporte oficial de horas que se recortará si la entrada o la salida, en caso de que no aplique esta la opción NA(no aplica), Los siguientes campos son la entrada y salida de cada uno de los días de la semana, en el caso de que un día sea no laborable selecciona el botón desactivado a lado del día que corresponda, los botones que dicen copiar anterior es para copiar los horarios de entrada y salida puestos en el día anterior, para finalizar se presiona el botón de guardar.
+En la parte superior derecha esta el botón volver al listado, para regresar a la vista anterior.
+\\
+
+==== Modificar plantilla de horarios ====
+
+Al presionar el botón del icono del lápiz (modificar registro) se mostrará la siguiente vista
+
+{{ :wiki:scheduleedit.png?800 |}}
+\\
+En esta vista se muestra la información como esta guardada y se puede modificar, al terminar se presiona el botón modificar, el botón cancelar pone en blanco los campos, en la esquina superior derecha, se encuentra un botón para volver a la vista anterior.\\
+
+==== Eliminar plantilla de horario ====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+
+{{ :wiki:areaeliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.
+Importante si la asignación se hizo a varios empleados de una sola vez se consideran un grupo y si se borra uno se borrarán todos.
+
+
+

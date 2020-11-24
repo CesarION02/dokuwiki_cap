@@ -1,0 +1,27 @@
+====== Ajustes para Prenómina ======
+
+Los ajustes a prenómina son una funcionalidad que permite al usuario (por lo regular de RRHH) hacer cambios a los reportes extraídos de las checadas y horarios, con el fin de justificar retardos, faltas, ausencia de checadas, otorgar horas extra, etc. por alguna razón válida y/o justificada.
+
+Para poder realizarlos se debe tener acceso al reporte de Tiempos Extra, que se encuentra disponible en el menú de reportes en el sistema CAP, se tiene que generar un reporte que comprenda la fecha en la cual la incidencia ha sucedido para que nos muestre el renglón en cuestión y poder ajustarlo
+
+{{:wiki:reptiemposextra.jpg|}}
+
+Al generar el reporte nos mostrará una pantalla como la siguiente:
+
+{{:wiki:vistate.jpg|}}
+
+Para hacer un **Ajuste**, se debe dar click en el engrane correspondiente al renglón que se desea "ajustar".
+Entre las opciones disponibles de modificación están:
+
+  * Omitir retardo.
+  * Omitir falta.
+  * Justificar entrada y salida (Cuando no hay checada).
+  * Agregar horas extra (en esta opción hay que indicar los minutos que se desean otorgar).
+  * Descontar horas extra (pone las horas extra trabajadas después del horario establecido en 0).
+
+Es importante mencionar que los cambios realizados **NO TENDRÁN EFECTO INMEDIATO, SINO HASTA QUE SE GENERE EL REPORTE DE NUEVO**.
+
+Los ajustes realizados aparecerán debajo del engrane correspondiente al renglón en el cual se hizo el ajuste y cuando se de click en este, se abrirá la ventana en la que se mostrarán con más claridad los ajustes hechos.
+
+
+

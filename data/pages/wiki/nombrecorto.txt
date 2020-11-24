@@ -1,0 +1,21 @@
+=====Mis empleados=====
+
+En esta vista se muestran los empleados ingresados en el sistema, que ya tengan asignado, su departamento CAP y su puesto, y que forman parte de los grupos de departamentos CAP a los cuales tiene acceso el usuario, se muestran los campos, número de empleado, empleado, nombre corto, departamento y puesto, como se ve en la siguiente imagen.
+{{ :wiki:nombrecortoindex.png?800 |}}
+\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+
+Del lado derecho de los botones se encuentra el campo de búsqueda, para usarlo se debe escribir en el campo y se hará una búsqueda en todas las columnas de la tabla.\\
+A lado de cada registro se muestra un botón con icono de lapiz que es para la modificación del empleado.
+
+====Modificar empleado====
+Al presionar el botón con icono de lápiz en la pantalla anterior te llevará a la siguiente vista.
+{{ :wiki:nombrecortoedicion.png?800 |}}
+En esta vista se muestran los datos del empleado, como su número de empleado y su nombre completo, los cuales no se podrán modificar, pero si se permitirá el cambio en los siguientes campos al terminar se presiona el botón de actualizar, el botón deshacer pondrá los campos como estaban originalmente.\\
+El último campo que se muestra en la vista es el puesto que tiene asignado el empleado antes de la modificación.\\
+En la esquina superior derecha se encuentra el botón regresar para volver al listado.\\

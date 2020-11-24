@@ -1,0 +1,11 @@
+====== Asignación de puesto ======
+
+En este menú los supervisores o jefes de área podrán agregar o modificar el puesto a los empleados que tienen a su cargo, la pantalla inicial de esta funcionalidad es la siguiente:
+
+
+{{:wiki:asignacpuestos.jpg|}}
+
+Al dar click en el botón **Editar** (ícono del lápiz en cada renglón), abrirá la siguiente pantalla, en la que se podrá modificar (a los empleados que el usuario tiene a cargo), Nombre corto, Departamento, Puesto, Puesto anterior.
+
+
+{{:wiki:editarasignacion.jpg|}}

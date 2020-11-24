@@ -1,0 +1,16 @@
+===== Empleados fóraneos =====
+
+Al ingresar en esta vista se mostrarán los empleados que han sido enviados al departamento fóraneos.
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+
+A lado de cada registro se tiene un botón con el ícono de lápiz, para modificar el empleado.
+
+==== Modificar empleado ====
+
+Al presionar el botón modificar registro se muestran los datos como están guardados en la base de datos y con la posibilidad de modificarlos, excepto nombre del empleado y número del empleado, al terminar se presiona el botón actualizar para terminar, el botón deshacer sirve para poner los campos en blanco.
+En la esquina superior derecha se encuentra el botón volver, para regresar al listado de empleados. 

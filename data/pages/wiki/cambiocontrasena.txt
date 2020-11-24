@@ -1,0 +1,7 @@
+======CAMBIO CONTRASEÑA=====
+====Modificar contraseña====
+Todos los usuarios tendrán acceso a está vista para poder cambiar su contraseña
+{{ :wiki:contrasena.png?800 |}}\\
+En la vista el único campo que aparece es el de contraseña, el botón que esta a lado del campo es para mostrar lo que se escriba en el campo.
+Para finalizar se presiona el botón de actualizar.\\
+El botón deshacer es para poner el campo en blanco.\\

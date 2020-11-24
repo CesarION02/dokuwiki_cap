@@ -1,0 +1,9 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1589408049;s:8:"modified";i:1592949650;}s:7:"creator";s:27:"Cesar Ivan Orozco Natividad";s:4:"user";s:5:"admin";s:11:"last_change";a:8:{s:4:"date";i:1592949650;s:2:"ip";s:11:"10.10.10.28";s:4:"type";s:1:"E";s:2:"id";s:11:"manualopera";s:4:"user";s:5:"admin";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:5;}s:11:"contributor";a:1:{s:5:"admin";s:27:"Cesar Ivan Orozco Natividad";}s:5:"title";s:38:"Control de acceso y prenómina(CAP)1.0";s:11:"description";a:2:{s:15:"tableofcontents";a:2:{i:0;a:4:{s:3:"hid";s:36:"control_de_acceso_y_prenomina_cap_10";s:5:"title";s:38:"Control de acceso y prenómina(CAP)1.0";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:19:"manual_de_operacion";s:5:"title";s:20:"Manual de Operación";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:150:"Control de acceso y prenómina(CAP)1.0
+
+Manual de Operación
+
+	*   CAP Reloj Checador
+	*   CAP Administrador
+	*   CAPLink
+	*   Dokuwiki
+	*   Respaldos";}s:8:"relation";a:2:{s:10:"references";a:5:{s:18:"wiki:relojchecador";b:1;s:8:"wiki:cap";b:1;s:12:"wiki:caplink";b:1;s:9:"wiki:doku";b:1;s:14:"wiki:respaldos";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1589408049;s:8:"modified";i:1592949650;}s:7:"creator";s:27:"Cesar Ivan Orozco Natividad";s:4:"user";s:5:"admin";s:11:"last_change";a:8:{s:4:"date";i:1592949650;s:2:"ip";s:11:"10.10.10.28";s:4:"type";s:1:"E";s:2:"id";s:11:"manualopera";s:4:"user";s:5:"admin";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:5;}s:11:"contributor";a:1:{s:5:"admin";s:27:"Cesar Ivan Orozco Natividad";}}}

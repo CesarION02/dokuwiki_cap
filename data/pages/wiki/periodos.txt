@@ -1,0 +1,10 @@
+===== Periodos procesados =====
+En esta vista se muestran las semanas y quincenas que ya fueron procesadas, para su uso en los reportes de STPS y prenómina, también estos periodos procesados son los que se utilizan para la exportación de información al sistema ERP externo.\\
+En la vista se muestra primero el año, el número de semana o quincena según sea el caso, también la fecha de inicio y fin de los registros que sean semanas y la fecha de corte de las que sean quincenas.\\
+El filtro utilizado en esta vista es por año para así ver quincenas y semanas solo del año seleccionado, para modificarlo se presiona en el calendario que esta en la esquina superior derecha a lado del botón procesar, y saldrán dos opciones año anterior y año actual, seleccionas el que se necesite y se presiona el botón de la lupa y se mostraran los registros del año seleccionado.\\
+
+Para procesar un periodo se debe presionar en el botón procesar que esta en la esquina superior derecha a lado del filtro de fechas, al presionarlo se reedirige a una pantalla donde se seleccionara el periodo de fechas(fecha inicio, fecha fin), y si lo que se procesará será semana o quincena, se da en procesar y esto comenzará con el proceso.\\
+
+====Nota====
+Para el uso de los datos procesados, ya sea en la vista de periodos procesados, en reporte STPS, reporte prenómina o exportación de prenómina, es muy importante tener en cuenta que para el correcto procesado de los datos de quincena, siempre se debe tener procesada la quincena anterior, dado que el procesamiento ocupa semanas completas que intervienen en la quincena, por lo cual consulta datos que pueden estar en la quincena anterior, por lo cual el procesamiento puede ser incorrecto si la quincena anterior no esta procesada.//
+Respecto a semana no se necesita llevar un orden para su correcto procesamiento.//

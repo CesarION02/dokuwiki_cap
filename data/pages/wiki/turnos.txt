@@ -1,0 +1,36 @@
+===== Turnos semanales=====
+
+En está vista se muestra la lista de los turnos ya ingresados en el sistema.
+{{ :wiki:turnoindex.png?800 |}}
+\\
+Aquí mismo se muestran los botones para la creación de nuevos turnos, en la parte superior derecha, en el botón Nuevo.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la edición y el segundo (basurero), es para borrar el registro.\\
+Bajo el botón de nuevo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+
+
+==== Crear turno semanal ====
+
+Al presionar el botón de Nuevo en la pantalla anterior se mostrará la siguiente vista
+{{ :wiki:workshiftcrear.png?800 |}}
+\\
+En esta vista en el primer campo captura el nombre del nuevo turno, en el siguiente campo se coloca la hora de entrada del turno, en el siguiente campo se coloca la hora de salida, el siguiente el número de horas a trabajar, el siguiente el número de horas que se generaran en ese turno, en el siguient campo se coloca el orden en el caso de que sean turnos que rotan y en el último campo se elige si se recorta la entrada o la salida, en el caso de que se requiera para el reporte oficial de horas, si no se requiere existe la opción NA(no aplica). En la esquina superior derecha esta el botón para volver a la ventana anterior.
+
+==== Modificar turno semanal ====
+
+Al presionar el botón del icono del lápiz (modificar registro) se mostrará la siguiente vista
+{{ :wiki:turnoeditar.png?800 |}}
+\\
+En esta vista se muestra la información como esta guardada y se puede modificar, al terminar se presiona el botón modificar, el botón cancelar pone los campos como estaban originalmente, en la esquina superior derecha, se encuentra un botón para volver a la vista anterior.
+
+==== Eliminar turno semanal ====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+{{ :wiki:departmenteliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.

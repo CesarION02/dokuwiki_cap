@@ -1,0 +1,43 @@
+=====Asignar horario fijo=====
+En está vista se muestra la lista de las asignaciones de plantillas de horario ya ingresados en el sistema.\\
+
+{{ :wiki:asignardeptindex.png?800 |}}
+\\
+
+Aquí mismo se muestran el botón para la creación de nueva asignación, en la parte superior derecha.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de asignar horario, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la ver/modificar y el segundo (basurero), es para eliminar el registro.\\
+Bajo el botón de nuevo registro, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+==== Crear asignar horario fijo====
+
+Al presionar el botón de asignar horario en la vista anterior se mostrará la siguiente vista
+
+{{ :wiki:asignardeptcrear.png?800 |}}
+\\
+En esta vista los primeros campos son el de fecha inicio y fecha fin, hay tres maneras de de colocar las fechas, la primera si no se le pone fecha de inicio ni de fin, la asignación siempre será tomada en cuenta, si solo se pone fecha de inicio indica que a partir de esa fecha se tendrá ese horario por tiempo indefinido, si se pone fecha inicio y fin indica que el horario sera asignado solo en los días que estén dentro del rango, después selecciona el empleado al que se asignará.\\
+Para el apartado de plantilla hay varias opciones:
+  * Cuando solo se tiene un horario y no se rota, se selecciona la plantilla y se da en el botón de guardar.
+  * Cuando se tienen diferentes horarios en las semanas, se selecciona la plantilla y se presiona el botón del icono más para poner la segunda plantilla, en el campo de orden que se activa al agregar la segunda plantilla, se coloca el orden a seguir, el que debe tener el número uno es el primer horario que se tendrá.
+\\
+==== Modificar asignación de plantilla ====
+
+Al presionar el botón del icono del lápiz (ver/modificar registro) se mostrará la siguiente vista
+
+{{ :wiki:asignardeptedicion.png?800 |}}
+\\
+En esta vista se muestran los días con sus horarios, sin poder editarlos, lo que se puede editar son las fechas, de la asignación y el orden en caso de que sean más de un horario que se modificará.
+
+==== Borrar asignar horario fijo ====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+
+{{ :wiki:areaeliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.
+Importante si la asignación se hizo a varios empleados de una sola vez se consideran un grupo y si se borra uno se borrarán todos.

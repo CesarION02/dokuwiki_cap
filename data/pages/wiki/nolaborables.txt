@@ -1,0 +1,34 @@
+====== Capacitaciones, festivos y descansos (Incidentes) ======
+
+===== Capacitaciones =====
+Los empleados que estarán en inducción o capacitación por lo regular no estarán dados de alta en el checador desde el primer día que estén en la empresa, por lo que se podría interpretar que no tienen checadas y no fueron a trabajar. Para esto se consideran los días de capacitación, que se dan de alta de la siguiente manera:
+Al acceder el menú desde CAP se mostrarán así
+
+{{:wiki:capacitaciones.jpg|}}
+
+Para programar una capacitación se da click en **Nuevo Registro**, esto mostrará la siguiente pantalla
+
+{{:wiki:nueva_capacitacion.jpg|}}
+
+Se debe seleccionar fecha inicio, fecha fin y empleado, luego dar click en **Guardar**.
+Después de hacer esto las capacitaciones serán tomadas por el checador y no se considerarán faltas en los reportes del sistema
+
+==== Días festivos ====
+
+Asignación y consulta de días festivos - [[wiki:asignacionfestivos | Asignación de días festivos]].
+
+==== Incidencias ====
+
+En está vista se muestra la lista de incidencias ya ingresadas en el sistema.\\
+
+{{ :wiki:areaindex.png?800 |}}
+\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Del lado derecho de los botones, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+
+Dentro de CAP no se pueden crear, modificar ni eliminar las incidencias, se tienen que crear, modificar o eliminar en el ERP externo.

@@ -1,0 +1,8 @@
+====Reporte Percepciones variables====
+Al ingresar en esta vista se muestra de la siguiente manera.\\
+{{ :wiki:reportepercepciones.png?600 |}}\\
+En esta vista en el primer campo se debe seleccionar que tipo de reporte sacará, por semana, quincena o todos. Después se selecciona el campo de filtro, que puede ser por departamento, por área o todos, al seleccionar departamento o área, se activa el campo de la derecha para elegir que áreas o departamentos se incluirán. Al final el rango de fechas y para finalizar se presiona el botón generar.\\
+{{ :wiki:reportepercepcionesreporte.png?600 |}}\\
+Al generar el reporte esta será la vista, en la cual se cuenta con 5 botones sobre la tabla con la información, el primero de izquierda a derecha es para mostrar, más o menos registros, el segundo es para realizar una copia de los registros, el tercero exporta los datos a un documento csv, el cuarto exporta a un documento excel y el último permite la impresión de los datos.
+Se cuenta tambien con un botón excel en la esquina derecha para exportar los datos tal cual se presentan en la vista con las sumatorias.
+Este reporte muestra el nombre del empleado, la hora de entrada y salida con la fecha, si genero hora extras, si tiene prima dominical, si tiene descansos o observaciones.

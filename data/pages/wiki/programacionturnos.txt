@@ -1,0 +1,38 @@
+=====Asignar turnos semanales =====
+La primera vista que se presentará será la siguiente.\\
+{{ :wiki:programacionturnos.png?600 |}}\\
+En esta vista se presentan dos opciones la primera es nueva programación, para generar una nueva programación de turnos y la segunda para ver las programaciones anteriormente ingresadas.
+==== Nueva programación====
+Al presionar la primera opción se presentarán los siguientes campos para el llenado\\
+{{ :wiki:programacionturnosnueva.png?600 |}}\\
+De estos campos se deben llenar la fecha de inicio y fecha fin de la programación y al tenerlas llenas, presionar el botón de la izquierda con el icono más para poder continuar con el proceso.
+Tambien aparece un botón amarillo, el cual si se presiona permite editar la última programación de turnos hecha.
+
+Al llenar los campos y presionar el botón se presentará esto en la vista.\\
+{{ :wiki:programacionpaso1.png?800 |}}\\
+
+En esta vista se presentan del lado izquierdo todos los empleados separados por sus puestos, en una tabla por cada puesto. Del lado derecho se colocan todos los departamentos que estén dados de alta en el sistema, que sean para la programación de turnos.\\
+Cada departamento, se muestra con sus puestos, y cada uno tiene dos opciones arriba, la primera es para seleccionar el grupo de turnos con que va a trabajar ese departamento, y el segundo es para cerrar el departamento en el caso de que no sea programado en ese rango de fechas.
+Cuando cierras un departamento se ve de esta manera\\
+{{ :wiki:depcerrado.png?400 |}}\\
+Cuando se elige un grupo de turnos, en la tabla de departamento en cada puesto aparecerán campos a llenar, el número de campos será definido por el número de turnos que se tienen en el grupo, como se muestra en la imagen\\
+{{ :wiki:depabierto.png?600 |}}\\
+Como se muestra en la imagen, por cada puesto se pone un renglón con el número de campos , igual al número de turnos, en cada campo del renglón se pone una lista para seleccionar al empleado que se colocara en ese turno en ese puesto, si se requieren mas campos, en cada puesto se tiene el botón de más que pone un nuevo renglón como se muestra en la imagen siguiente.\\
+{{ :wiki:depamasrenglones.png?600 |}}\\
+En cada renglón aparece un botón con un icono de la x, con el cual se borra el renglón. Sí algún campo de uno de los puestos queda en blanco no se contempla en la generación del calendario.
+Para generar el calendario se debe terminar de hacer la programación y cerrar los departamentos que no se utilizarán, y presionar el botón de pasar a calendario que esta abajo de la tabla de empleados.\\
+{{ :wiki:botonpasarcalendario.png?200 |}}
+Al presionar el botón se genera el calendario con toda la información y para finalizar la programación se da en el botón de guardar.\\
+{{ :wiki:calendario.png?600 |}}
+Cuando se guarda aparece bajo el botón de guardar, un link para abrir el pdf de la programación de turnos.\\
+{{ :wiki:imprimir.png?200 |}}
+
+====Programaciones anteriores ====
+Al presionar esta opción aparecerá la siguiente vista
+{{ :wiki:programacionanterior.png?400 |}}
+El primer campo es para elegir la semana que se quiere consultar, los botones a la derecha son para después de seleccionar una semana basarse, en la programación para generar una nueva, el botón de copiar, hace una copia exacta de la programación y el de rotar hace una copia pero rotando los horarios de los empleados dependiendo de la rotación que se le da a los turnos.
+Al seleccionar una semana, se despliega el pdf de esa programación de turnos para poder consultarlo.\\
+{{ :wiki:pdf.png?600 |}}
+
+
+

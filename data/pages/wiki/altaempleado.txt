@@ -1,0 +1,22 @@
+====== Alta de empleado ======
+
+===== 1. Registrar empleado en sistema externo =====
+Como primer paso, se debe de dar de alta el empleado en el sistema externo, en este caso SIIE, para que el sistema CAP pueda reconocerlo. No es necesario capturar todos los datos del empleado para que este sea reconocido en CAP, basta con capturar:
+
+  * Número de empleado
+  * Nombres y Apellidos
+  * Fecha de alta
+  * Periodicidad de pago (semana o quincena)
+  * Departamento
+
+===== 2. Ir a CAP Administrador y sincronizar =====
+La función de sincronización de CAP nos permite comprobar si ha habido cambios en la información del sistema externo, si los hay, este se encarga de sincronizar los datos de dicho sistema con CAP; es decir, si se ha detectado que en el esistema externo hay un empleado nuevo la sincronización insertará a ese empleado en los registros de CAP.
+Para realizar la sincronización basta con hacer click en:
+
+{{:wiki:sincroni.png?400|}}
+
+===== 3. Activar empleado en pantalla de huellas =====
+  * Pantalla en la que se muestra qué empleados ya tienen configurada la huella y cuáles no - [[wiki:huellas | Empleados con huella]]
+
+===== 4. Dar de alta huella dactilar en el checador o especificar si registrará con código =====
+  * Para dar de alta una huella para un nuevo empleado es necesario entrar a la administración del reloj checador, en la ubicación del lector de huellas -  [[wiki:checador | Reloj Checador]]

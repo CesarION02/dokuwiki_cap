@@ -1,0 +1,45 @@
+=====Dokuwiki (Documentación)=====
+====Instalación====
+Es el sistema utilizado para la generación de los manuales necesarios.\\
+Manera de instalarlo y configurarlo es la siguiente.\\
+La carpeta se llama dokuwiki, la cual se debe copiar en el servidor donde se pondrá el sistema, primero se debe ingresar en el directorio C:/, buscar la carpeta xampp, dentro se busca la carpeta htdocs, y ahí se pega la carpeta de dokuwiki.\\
+Con esto el sistema estará en funcionamiento.\\
+Para checar que sea correcta la instalación se ingresa la siguiente url localhost:8080/dokuwiki, lo cual debe mostrar la siguiente pantalla.\\
+{{ :wiki:dokuwiki1.png?800 |}}\\
+Para ingresar al sistema como administrador el usuario y contraseña son los siguientes:\\
+  * Admin
+  * swaplicado
+Se recomienda después de la instalación el cambio de la contraseña, para esto en la esquina superior derecha hay un menú con el icono de herramienta, se presiona y se elige la opción Administrar.\\
+{{ :wiki:dokuwiki2.png?300 |}}\\
+Se mostrará la siguiente pantalla.\\
+{{ :wiki:dokuwiki3.png?800 |}}\\
+En esta pantalla se debe seleccionar la opción Administración de usuarios, lo cual abre la siguiente pantalla.\\
+{{ :wiki:dokuwiki4.png?800 |}}\\
+Se muestra un listado de los usuarios registrados en el sistema, te muestra usuario, nombre, correo y grupo al que pertenece, para modificar los datos se presiona sobre el usuario lo cual moverá la pantalla hacia abajo mostrando el siguiente formulario.\\
+{{ :wiki:dokuwiki5.png?800 |}}\\
+En el formulario de la derecha se ven los datos del usuario seleccionado, los cuales se pueden modificar, ahí se modifica la contraseña y se da sobre botón guardar, y con esto se terminará el proceso.\\
+==== Control de acceso ====
+El control de acceso es fundamental para que solo el usuario administrador pueda editar, subir archivos, eliminar y crear nuevas pantallas, al igual que ver los manuales de operación y manual de mantenimiento. Los usuarios que no sean administrador solo podrán ver el archivo de manual de usuario sin poder hacer ninguna modificación.\\
+Para el correcto uso de control de acceso se debe verificar que se tengan las reglas, a esta parte del sistema se puede acceder desde la ventana de administración.\\
+{{ :wiki:dokuwiki6.png?800 |}}\\
+Se debe presionar el botón administración de lista de control de acceso lo que mostrará la siguiente ventana.\\
+{{ :wiki:dokuwiki7.png?800 |}}\\
+La primera regla para lo que sirve es que todos los que entren en el link tengan o no usuario no puedan ni ver, ni editar el manual de operación.\\
+La segunda es la misma regla anterior pero para los que tengan usuario creado.\\
+La tercera regla sirve para que todos los que entren en el link sin usuario no puedan ni ver, ni editar el manual de mantenimiento.\\
+La cuarta regla sirve para que todos los que entren en el link sin usaruio puedan solo ver el manual de usuarios.\\
+La quinta regla sirve para que todos los usuarios registrados puedan solo ver el manual de usuario.\\
+La sexta le da al grupo de usuarios administrador la posibilidad de editar todo en la dokuwiki.\\
+Si alguna de las reglas no existe la manera de crearlas es la siguiente, en la misma pantalla arriba se muestra el siguiente formulario.\\
+{{ :wiki:dokuwiki8.png?800 |}}\\
+En el cual en el select que dice permiso para, seleccionas el grupo al cual se hará la regla y después abajo se elige el permiso que tendrá.
+
+====Creación de usuarios ====
+Para la creación de nuevos usuarios se puede acceder desde la pantalla de administración que es la siguiente.''
+{{ :wiki:dokuwiki6.png?800 |}}\\
+En esta pantalla se debe seleccionar la opción administración de usuarios para abrir la siguiente pantalla, en la cual esta el siguiente formulario.\\
+{{ :wiki:dokuwiki9.png?600 |}}\\
+Se tienen que llenar todos los campos para la creación, en el campo grupo si se creará un usuario normal debe de llevar el nombre user, para el correcto uso del control de acceso.
+
+
+

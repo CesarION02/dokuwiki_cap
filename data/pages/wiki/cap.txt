@@ -1,0 +1,62 @@
+===== CAP (Control de Acceso y prenominas con reloj checador)=====
+
+====XAMPP====
+El instalador se llama xampp-win32-7.1.25-0-VC14-installer.exe, se debe dar doble click para comenzar con el proceso de instalación, abriendo la siguiente ventana.\\
+{{ :wiki:xampp1.png?400 |}}\\
+En esta ventana se debe presionar el botón de next para seguir.\\
+{{ :wiki:xampp2.png?400 |}}\\
+En la ventana se debe quitar la seleccion a MySQL y a filezilla, todo lo demás se queda seleccionado, y se presiona el botón next.\\
+{{ :wiki:xampp3.png?400 |}}\\
+En esta ventana se elegirá la carpeta donde se instalará, se deja la ruta que tiene por defecto, y se presiona next.\\
+{{ :wiki:xampp4.png?400 |}}\\
+En esta ventana se debe presionar el botón de next para seguir.\\
+{{ :wiki:xampp5.png?400 |}}\\
+En la ventana se debe presionar el botón next para comenzar el proceso de instalación.\\
+{{ :wiki:xampp6.png?400 |}}\\
+En la ventana, la barra muestra el proceso de instalción, cuando esta se complete estará finalizado, y se debe presionar el botón next para concluir con el proceso. \\
+Después de la instalación se debe configurar el puerto para que corra el apache, esto se debe hacer buscando la carpeta de xampp, entrar y buscar la carpeta apache, dentro de esta carpeta se busca la llamada conf y dentro se ingresa a modificar el documento httpd.conf, se modifica la linea 60 donde dice listen 80 y se modifica por listen 8080 o por el puerto elegido para utilizar, tambien en la linea 227 donde dice ServerName localhost:80 cambiar por localhost:8080 o el puerto a utilizar, para finalizar guardar el documento.
+Después se debe encender el proceso desde el panel de control de xampp como se muestra en la siguiente imagen.\\
+{{ :wiki:controlxampp.png?400 |}}\\
+Con esto queda listo Xampp y apache.\\
+
+====Composer====
+Para la instalación de composer el archivo se llama Composer_Setup.exe y se debe dar doble click para comenzar con el proceso.\\
+{{ :wiki:composer1.png?400 |}}\\
+En la ventana se debe seleccionar la opción Install for all users, para comenzar con el proceso.
+{{ :wiki:composer2.png?400 |}}\\
+En la ventana la opcion de Developer mode debe estar sin seleccionar y presionar el botón de next para continuar.\\
+{{ :wiki:composer3.png?400 |}}\\
+En la ventana se debe seleccionar la versión de php que utilizaremos, en este caso la que esta en el xampp que instalamos, la ruta es C:\xampp\php\php.exe. y después presionar el botón next para continuar con el proceso.\\
+{{ :wiki:composer5.png?400 |}}\\
+En esta ventana se debe dar next, sin modificar nada.\\
+{{ :wiki:composer6.png?400 |}}\\
+Esta ventana muestra el proceso de instalación y al terminar, mostrará la siguiente ventana.\\
+{{ :wiki:composer7.png?400 |}}\\
+Para terminar se debe dar en el botón finish y con esto se comletará la instalción de composer.\\
+
+====Github Desktop====
+Este programa es para realizar la instalación del sistema CAP y más adelante su actualización, el ejecutable se llama GitHubDesktopSetup se debe dar doble click para iniciar el proceso de instalación.\\
+{{ :wiki:git1.png?400 |}}\\
+En esta ventana se debe ingresar la cuenta de github donde esta el repositorio de CAP, esto abrirá la siguiente ventana.\\
+{{ :wiki:git2.png?400 |}}\\
+En esta ventana para terminar se debe presionar el botón finish.\\
+
+====Instalación Sistema CAP====
+Dentro de github Desktop, se debe presionar la opción file del menú, y dentro del menú elegir clone repository lo cual abrirá la siguiente pantalla.\\
+{{ :wiki:clonegit.png?400 |}}\\
+En la ventana se debe ir hacia la pestaña URL y ahí en el primer campo colocar la URL del proyecto para su clonado, y en el siguiente campo la ruta donde se pondrá en el servidor C:\xampp\htdocs.
+Cuando se termine la clonación lo siguiente será, abrir el cmd, vamos a la carpeta de CAP recien clonada, y cuando estemos en la dirección actualizaremos las dependencias de composer con la siguiente linea, **composer update**, y generaremos la carpeta para poner los documentos, como los pdf de las programaciones de turno, con este comando **php artisan storage:link**.\\
+Se debe crear una base de datos con el nombre checador, cuando se tenga esta base de datos, en la misma ruta donde se escribieron los comando se debe escribir el siguiente comando para crear las tablas de la base de datos **php artisan migrate**, al finalizar el proceso ya estará lista la base de datos para utilizarla.\\
+Se tiene un documento de configuración llamado cap_config con los siguientes datos://
+  * lastSyncDateTime. Esta variable tendrá el valor de la última vez que se sincronizo la base de datos del sistema externo, no es necesario que sea manipulada por el usuario, sola se actualiza.
+  * startOfWeek. Esta variable tendrá el valor de que día será el inicio de la semana para el sistema, empezando por el 1 que es lunes, terminando con el 7 que es domingo.
+  * policy. Esta variable tendrá el valor de la política que se utilizará para el recorte de horas extra que quedarán en cada nómina que se utilice.
+  * toleranceMinutes. Esta variable tendrá el valor de la tolerancia en minutos para que se retiren los bonos por retardos.
+  * maxGapMinutes.
+  * maxGapSchedule.
+  * maxGapCheckSchedule.
+  * dept_foraneo. Esta variable tendrá el valor del departamento que se utilizará, para enviar a los empleados que sean foraneos.
+  * job_foraneo. Esta variable tendrá el valor del puesto que se utilizará, para enviar a los empleados que sean foraneos. 
+  * dept_pre.
+  * admin_rol.
+  * policy_cut. Esta variable tendrá el valor de la política que se utilizará para la manipulación de las salidas de los empleados.

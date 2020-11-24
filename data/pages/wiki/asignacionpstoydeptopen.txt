@@ -1,0 +1,26 @@
+====== Empleado vs. departamento ======
+
+En este apartado el departamento de recursos humanos podrá determinar con facilidad qué empleados están pendientes de asignación de departamento y hacerlo de forma sencilla.
+La siguiente imagen muestra un ejemplo de cómo se vería esta pantalla:
+
+{{:wiki:pendietescargardepts.jpg?1008|343}}
+
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Del lado derecho de los botones, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.\\
+A lado de cada registro se encuentran 3 botones, el primero es un icono de correcto es para indicar que se reviso el empleado, y el departamento asignado por el sistema es correcto, el segundo icono es el del lapiz que es para modificar el empleado para asignarle otro departamento, el tercero es el icono de una camioneta, el cual es para enviar a fóraneo un empleado.
+
+==== Confirmar departamento ====
+Al presionar el botón de confirmar departamento, se mostrará un mensaje de confirmación, porque al aceptar, el empleado desaparecerá de esta vista, pudiendo revertir esto, al ingresar al catalogo de empleados y cambiar su departamento.
+
+==== Modificar departamento ====
+Al presionar el botón de modificar, se mostrará la siguiente pantalla.\\
+Se muestran los datos previamente guardados del empleado, como su número de empleado, nombre del empleado, manera de checar, si genera tiempo extra, departamento y puesto, los primeros dos no se pueden modificar. Al terminar la modificación se presiona el botón de actualizar, el botón de cancelar se utiliza para dejar los campos como estaban originalmente.\\
+En la esquina superior derecha se encuentra el botón regresar para volver al listado.
+
+==== Enviar a foráneos ====
+Este botón sirve para enviar rápidamente a los empleados al departamento de foráneos al enviarlo desaparecerá de esta pantalla, y para verlo se tendrá que ir al modulo de empleados foráneos.

@@ -1,0 +1,322 @@
+
+<h1 class="sectionedit1" id="control_de_acceso_y_prenomina_cap_10">Control de Acceso y Prenómina (CAP) 1.0</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Control de Acceso y Pren\u00f3mina (CAP) 1.0&quot;,&quot;hid&quot;:&quot;control_de_acceso_y_prenomina_cap_10&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-55&quot;} -->
+<h1 class="sectionedit2" id="manual_de_usuario">Manual de Usuario</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Manual de Usuario&quot;,&quot;hid&quot;:&quot;manual_de_usuario&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;56-87&quot;} -->
+<h2 class="sectionedit3" id="introduccion">Introducción</h2>
+<div class="level2">
+
+<p>
+CAP es una aplicación web, desarrollada para la agilización del proceso de generación de prenóminas, basandose en información generada por el reloj checador incluido en CAP (CAPRelojChecador).<br/>
+
+CAP esta compuesto por <strong>CAP Administrador</strong> y <strong>CAP Reloj Checador</strong>.<br/>
+
+El siguiente documento es una guía para el uso de estos sistemas.<br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Introducci\u00f3n&quot;,&quot;hid&quot;:&quot;introduccion&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;88-456&quot;} -->
+<h2 class="sectionedit4" id="preguntas_frecuentes">Preguntas frecuentes</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> ¿Cómo se da de alta un nuevo empleado? - <a href="/dokuwiki/doku.php?id=wiki:altaempleado" class="wikilink1" title="wiki:altaempleado"> Alta de empleado </a></div>
+</li>
+<li class="level1"><div class="li"> ¿Cómo se asigna el horario a un empleado? - <a href="/dokuwiki/doku.php?id=wiki:asignarhorario" class="wikilink1" title="wiki:asignarhorario"> Asignar horario </a></div>
+</li>
+<li class="level1"><div class="li"> ¿Cómo se asigna puesto y/o departamento a un empleado? - <a href="/dokuwiki/doku.php?id=wiki:asignarpuestoydetpo" class="wikilink1" title="wiki:asignarpuestoydetpo"> Asignar puesto y depto </a></div>
+</li>
+<li class="level1"><div class="li"> ¿Cómo se indica que un empleado estará de descanso, en día festivo o en capacitación? - <a href="/dokuwiki/doku.php?id=wiki:nolaborables" class="wikilink1" title="wiki:nolaborables"> Días no laborables </a></div>
+</li>
+<li class="level1"><div class="li"> ¿Cómo se pueden justificar o indicar faltas, retardos, horas extra, falta de checadas? - <a href="/dokuwiki/doku.php?id=wiki:ajustesprenomina" class="wikilink1" title="wiki:ajustesprenomina"> Ajustes para prenómina </a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Preguntas frecuentes&quot;,&quot;hid&quot;:&quot;preguntas_frecuentes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;457-1080&quot;} -->
+<h2 class="sectionedit5" id="roles_de_usuario">Roles de usuario</h2>
+<div class="level2">
+
+<p>
+El sistema esta hecho para ser utilizado por diferentes perfiles de usuarios (roles), a continuación se muestra una lista de los roles y funciones a las cuales tendrán acceso para navegar dentro del manual y encontrar fácilmente los temas de interés.
+</p>
+
+</div>
+
+<h4 id="administrador_de_sistema">Administrador de sistema</h4>
+<div class="level4">
+
+<p>
+Este perfil tendrá acceso principalmente a las vistas de administración, para una configuración del sistema.
+</p>
+<ul>
+<li class="level1"><div class="li"> Creación, modificación y eliminación de usuarios - <a href="/dokuwiki/doku.php?id=wiki:user" class="wikilink1" title="wiki:user"> Usuarios</a>.</div>
+</li>
+<li class="level1"><div class="li"> Creación y ordenamiento de menús - <a href="/dokuwiki/doku.php?id=wiki:menu" class="wikilink1" title="wiki:menu"> Menú</a>.</div>
+</li>
+<li class="level1"><div class="li"> Creación, modificación y eliminación de roles - <a href="/dokuwiki/doku.php?id=wiki:rol" class="wikilink1" title="wiki:rol"> Rol</a>.</div>
+</li>
+<li class="level1"><div class="li"> Colocar que menús se pueden ver por cada rol - <a href="/dokuwiki/doku.php?id=wiki:menurol" class="wikilink1" title="wiki:menurol"> Menú vs. rol</a>.</div>
+</li>
+<li class="level1"><div class="li"> Asignar roles a los usuarios - <a href="/dokuwiki/doku.php?id=wiki:userrol" class="wikilink1" title="wiki:userrol"> Usurio vs. rol</a>.</div>
+</li>
+<li class="level1"><div class="li"> Consulta de empleados con huella digital y faltantes, y poder modificar si pueden checar con huella o código o ambos - <a href="/dokuwiki/doku.php?id=wiki:huellas" class="wikilink1" title="wiki:huellas"> Huellas digitales</a>.</div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="auxiliar_administrador">Auxiliar administrador</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> Pantalla en la que se muestra qué empleados ya tienen configurada la huella y cuáles no - <a href="/dokuwiki/doku.php?id=wiki:huellas" class="wikilink1" title="wiki:huellas"> Huellas digitales</a></div>
+</li>
+<li class="level1"><div class="li"> Cambio de contraseña - <a href="/dokuwiki/doku.php?id=wiki:cambiocontrasena" class="wikilink1" title="wiki:cambiocontrasena"> Cambio contraseña</a></div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="recursos_humanos">Recursos Humanos</h4>
+<div class="level4">
+
+<p>
+Este perfil tendrá acceso principalmente a reportes y secciones administrativas.
+</p>
+<ul>
+<li class="level1"><div class="li"> Reporte de entradas y salida en un mismo renglon - <a href="/dokuwiki/doku.php?id=wiki:reportees" class="wikilink1" title="wiki:reportees"> Reporte de ES</a>.</div>
+</li>
+<li class="level1"><div class="li"> Reporte de entradas y salidas en renglones diferentes - <a href="/dokuwiki/doku.php?id=wiki:reporte2" class="wikilink1" title="wiki:reporte2"> Reporte 2</a>.</div>
+</li>
+<li class="level1"><div class="li"> Reporte de STPS - <a href="/dokuwiki/doku.php?id=wiki:reportechecadas" class="wikilink1" title="wiki:reportechecadas"> Reporte de STPS</a>.</div>
+</li>
+<li class="level1"><div class="li"> Reporte de tiempos extras - <a href="/dokuwiki/doku.php?id=wiki:reportepercepciones" class="wikilink1" title="wiki:reportepercepciones"> Reporte de tiempos extra</a>.</div>
+</li>
+<li class="level1"><div class="li"> Reporte de prenómina - <a href="/dokuwiki/doku.php?id=wiki:reporteprenomina" class="wikilink1" title="wiki:reporteprenomina"> Reporte de prenómina</a>.</div>
+</li>
+<li class="level1"><div class="li"> Asignación y consulta de guardias sabatinas - <a href="/dokuwiki/doku.php?id=wiki:guardiassabatinas" class="wikilink1" title="wiki:guardiassabatinas"> Guardias sabatinas</a>.</div>
+</li>
+<li class="level1"><div class="li"> Asignación y consulta de días festivos - <a href="/dokuwiki/doku.php?id=wiki:asignacionfestivos" class="wikilink1" title="wiki:asignacionfestivos"> Asignar día festivo</a>.</div>
+</li>
+<li class="level1"><div class="li"> Creación, modificación y eliminación de plantillas de horario - <a href="/dokuwiki/doku.php?id=wiki:platillahorario" class="wikilink1" title="wiki:platillahorario"> Plantillas horarios fijos</a>.</div>
+</li>
+<li class="level1"><div class="li"> Asignación de plantillas de horario - <a href="/dokuwiki/doku.php?id=wiki:asignacionhorario" class="wikilink1" title="wiki:asignacionhorario"> Asignar horario fijo</a>. </div>
+</li>
+<li class="level1"><div class="li"> Sincronización de catalogos con ERP - <a href="/dokuwiki/doku.php?id=wiki:sincronizacion" class="wikilink1" title="wiki:sincronizacion"> Sincronización</a></div>
+</li>
+<li class="level1"><div class="li"> Asignar puesto y departamento a empleados pendientes - <a href="/dokuwiki/doku.php?id=wiki:asignacionpstoydeptopen" class="wikilink1" title="wiki:asignacionpstoydeptopen"> Empleados vs. departamentos</a></div>
+</li>
+<li class="level1"><div class="li"> Asignar grupos de departamento a cada usuario - <a href="/dokuwiki/doku.php?id=wiki:asignaciongposdept" class="wikilink1" title="wiki:asignaciongposdept"> Usuario vs. grupo de departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> Catalogo de departamentos nóminas - <a href="/dokuwiki/doku.php?id=wiki:departamentosnominas" class="wikilink1" title="wiki:departamentosnominas"> Departamentos nóminas</a></div>
+</li>
+<li class="level1"><div class="li"> Catalogo de áreas - <a href="/dokuwiki/doku.php?id=wiki:areas" class="wikilink1" title="wiki:areas"> Áreas</a></div>
+</li>
+<li class="level1"><div class="li"> Catalogo de empleados - <a href="/dokuwiki/doku.php?id=wiki:empleados" class="wikilink1" title="wiki:empleados"> Empleados</a></div>
+</li>
+<li class="level1"><div class="li"> Catalogo de empleados fóraneos - <a href="/dokuwiki/doku.php?id=wiki:empleadoforaneo" class="wikilink1" title="wiki:empleadoforaneo"> Empleados fóraneos</a></div>
+</li>
+<li class="level1"><div class="li"> Mis empleados - <a href="/dokuwiki/doku.php?id=wiki:nombrecorto" class="wikilink1" title="wiki:nombrecorto"> Mis empleados</a></div>
+</li>
+<li class="level1"><div class="li"> Catalogo de días festivos - <a href="/dokuwiki/doku.php?id=wiki:diasfestivos" class="wikilink1" title="wiki:diasfestivos"> Días festivos</a></div>
+</li>
+<li class="level1"><div class="li"> Catálogo de turnos semanales - <a href="/dokuwiki/doku.php?id=wiki:turnos" class="wikilink1" title="wiki:turnos"> Turnos semanales</a></div>
+</li>
+<li class="level1"><div class="li"> Catálogo de grupos de turnos semanles - <a href="/dokuwiki/doku.php?id=wiki:grupoturnos" class="wikilink1" title="wiki:grupoturnos"> Grupo de turnos semanales</a></div>
+</li>
+<li class="level1"><div class="li"> Catálogo de incidencias - [wiki:nolaborables | Incidencias ]]</div>
+</li>
+<li class="level1"><div class="li"> Cambio de contraseña - <a href="/dokuwiki/doku.php?id=wiki:cambiocontrasena" class="wikilink1" title="wiki:cambiocontrasena"> Cambio contraseña</a></div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="coordinador_de_turnos_semanales">COORDINADOR DE TURNOS SEMANALES</h4>
+<div class="level4">
+
+<p>
+Este perfil tendrá acceso a la programación de turnos semanales principalmente.
+</p>
+<ul>
+<li class="level1"><div class="li"> Creación y consulta de programaciones de turnos semanales - <a href="/dokuwiki/doku.php?id=wiki:programacionturnos" class="wikilink1" title="wiki:programacionturnos"> Asignar turnos semanales</a>.</div>
+</li>
+<li class="level1"><div class="li"> Asignación de capacitaciones - <a href="/dokuwiki/doku.php?id=wiki:nolaborables" class="wikilink1" title="wiki:nolaborables"> Capacitaciones </a></div>
+</li>
+<li class="level1"><div class="li"> Asignación de turnos especiales - <a href="/dokuwiki/doku.php?id=wiki:turnoespecial" class="wikilink1" title="wiki:turnoespecial"> Turnos especiales</a></div>
+</li>
+<li class="level1"><div class="li"> Mis empleados - <a href="/dokuwiki/doku.php?id=wiki:nombrecorto" class="wikilink1" title="wiki:nombrecorto"> Mis empleados</a></div>
+</li>
+<li class="level1"><div class="li"> Configuración de departamentos CAP - <a href="/dokuwiki/doku.php?id=wiki:departamentos" class="wikilink1" title="wiki:departamentos"> Departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> Configuración de puestos - <a href="/dokuwiki/doku.php?id=wiki:puestos" class="wikilink1" title="wiki:puestos"> Puestos</a></div>
+</li>
+<li class="level1"><div class="li"> Configuración de grupo departamentos - <a href="/dokuwiki/doku.php?id=wiki:grupodep" class="wikilink1" title="wiki:grupodep"> Grupo de departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> Cambio de contraseña - <a href="/dokuwiki/doku.php?id=wiki:cambiocontrasena" class="wikilink1" title="wiki:cambiocontrasena"> Cambio contraseña</a></div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="coordinador_de_horarios_fijos">COORDINADOR DE HORARIOS FIJOS</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> Creación y consulta de asignación de horarios fijos - <a href="/dokuwiki/doku.php?id=wiki:asignacionpordept" class="wikilink1" title="wiki:asignacionpordept"> Asignación de horarios fijos</a></div>
+</li>
+<li class="level1"><div class="li"> Ver horario en día especifico - <a href="/dokuwiki/doku.php?id=wiki:diaespecifico" class="wikilink1" title="wiki:diaespecifico"> Ver horario en día especifico</a></div>
+</li>
+<li class="level1"><div class="li">  - <a href="/dokuwiki/doku.php?id=wiki:nombrecorto" class="wikilink1" title="wiki:nombrecorto"> Nombres cortos</a></div>
+</li>
+<li class="level1"><div class="li"> Configuración de departamentos CAP - <a href="/dokuwiki/doku.php?id=wiki:departamentos" class="wikilink1" title="wiki:departamentos"> Departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> Configuración de puestos -<a href="/dokuwiki/doku.php?id=wiki:puestos" class="wikilink1" title="wiki:puestos"> Puestos</a></div>
+</li>
+<li class="level1"><div class="li"> Cambio de contraseña - <a href="/dokuwiki/doku.php?id=wiki:cambiocontrasena" class="wikilink1" title="wiki:cambiocontrasena"> Cambio contraseña</a></div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="administrador">Administrador</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> Todos los Accesos</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Roles de usuario&quot;,&quot;hid&quot;:&quot;roles_de_usuario&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1081-5611&quot;} -->
+<h2 class="sectionedit6" id="cap_administrador">CAP Administrador</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;CAP Administrador&quot;,&quot;hid&quot;:&quot;cap_administrador&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;5612-5641&quot;} -->
+<h3 class="sectionedit7" id="catalogos">Catálogos</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:areas" class="wikilink1" title="wiki:areas"> Áreas</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:departamentos" class="wikilink1" title="wiki:departamentos"> Departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:puestos" class="wikilink1" title="wiki:puestos"> Puestos</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:departamentosnominas" class="wikilink1" title="wiki:departamentosnominas"> Departamentos nominas</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:grupodep" class="wikilink1" title="wiki:grupodep"> Grupo de departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:diasfestivos" class="wikilink1" title="wiki:diasfestivos"> Días festivos</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:empresas" class="wikilink1" title="wiki:empresas"> Empresas</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:empleados" class="wikilink1" title="wiki:empleados"> Empleados</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:empleadoforaneo" class="wikilink1" title="wiki:empleadoforaneo"> Empleados fóraneos</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:nombrecorto" class="wikilink1" title="wiki:nombrecorto"> Mis empleados</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:asignaciongposdept" class="wikilink1" title="wiki:asignaciongposdept"> Usuario vs. grupo de departamentos CAP</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:asignacionpstoydeptopen" class="wikilink1" title="wiki:asignacionpstoydeptopen"> Empleado vs. departamento</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:cambiocontrasena" class="wikilink1" title="wiki:cambiocontrasena"> Cambio contraseña</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:huellas" class="wikilink1" title="wiki:huellas"> Huella digital</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:nolaborables" class="wikilink1" title="wiki:nolaborables"> Incidencias </a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:sincronizacion" class="wikilink1" title="wiki:sincronizacion"> Sincronización</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:periodos" class="wikilink1" title="wiki:periodos"> Periodos procesados</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cat\u00e1logos&quot;,&quot;hid&quot;:&quot;catalogos&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;5642-6440&quot;} -->
+<h3 class="sectionedit8" id="programacion_de_turnos_semanales_horarios_fijos">Programación de Turnos semanales/Horarios fijos</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:asignacionpordept" class="wikilink1" title="wiki:asignacionpordept"> Asignar horario fijo</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:programacionturnos" class="wikilink1" title="wiki:programacionturnos"> Asignar de turnos semanales</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:asignacionhorario" class="wikilink1" title="wiki:asignacionhorario"> Asignar horario global</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:platillahorario" class="wikilink1" title="wiki:platillahorario"> Plantillas horarios fijos</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:turnoespecial" class="wikilink1" title="wiki:turnoespecial"> Turnos especiales</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:nolaborables" class="wikilink1" title="wiki:nolaborables"> Capacitaciones </a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:turnos" class="wikilink1" title="wiki:turnos"> Turnos semanales</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:grupoturnos" class="wikilink1" title="wiki:grupoturnos"> Grupo de turnos semanales</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:diaespecifico" class="wikilink1" title="wiki:diaespecifico"> Horario fecha exacta</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:guardiassabatinas" class="wikilink1" title="wiki:guardiassabatinas"> Guardias sabatinas</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:asignacionfestivos" class="wikilink1" title="wiki:asignacionfestivos"> Asignar día festivo</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Programaci\u00f3n de Turnos semanales\/Horarios fijos&quot;,&quot;hid&quot;:&quot;programacion_de_turnos_semanales_horarios_fijos&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;6441-7069&quot;} -->
+<h3 class="sectionedit9" id="reportes">Reportes</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:reportees" class="wikilink1" title="wiki:reportees"> Reporte de ES</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:reporte2" class="wikilink1" title="wiki:reporte2"> Reporte 2</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:reportechecadas" class="wikilink1" title="wiki:reportechecadas"> Reporte de STPS</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:reportepercepciones" class="wikilink1" title="wiki:reportepercepciones"> Reporte de percepciones variables</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:reporteprenomina" class="wikilink1" title="wiki:reporteprenomina"> Reporte de prenómina</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Reportes&quot;,&quot;hid&quot;:&quot;reportes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:9,&quot;range&quot;:&quot;7070-7332&quot;} -->
+<h3 class="sectionedit10" id="ingreso_a_plataforma">Ingreso a plataforma</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:login" class="wikilink1" title="wiki:login"> Ingreso a plataforma</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ingreso a plataforma&quot;,&quot;hid&quot;:&quot;ingreso_a_plataforma&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:10,&quot;range&quot;:&quot;7333-7406&quot;} -->
+<h3 class="sectionedit11" id="catalogos_administracion">Catálogos administración</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:user" class="wikilink1" title="wiki:user"> Usuarios</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:menu" class="wikilink1" title="wiki:menu"> Menú</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:rol" class="wikilink1" title="wiki:rol"> Roles</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:menurol" class="wikilink1" title="wiki:menurol"> Menú - rol</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:userrol" class="wikilink1" title="wiki:userrol"> Usurio vs. rol</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cat\u00e1logos administraci\u00f3n&quot;,&quot;hid&quot;:&quot;catalogos_administracion&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:11,&quot;range&quot;:&quot;7407-7597&quot;} -->
+<h2 class="sectionedit12" id="cap_reloj_checador">CAP Reloj Checador</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=wiki:checador" class="wikilink1" title="wiki:checador"> Reloj Checador</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;CAP Reloj Checador&quot;,&quot;hid&quot;:&quot;cap_reloj_checador&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:12,&quot;range&quot;:&quot;7598-&quot;} -->

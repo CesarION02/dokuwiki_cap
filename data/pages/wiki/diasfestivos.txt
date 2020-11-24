@@ -1,0 +1,21 @@
+===== Días festivos =====
+
+En está vista se muestra la lista de los días festivos ya ingresadas en el sistema.\\
+{{ :wiki:holidayindex.png?800 |}}
+\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+A la derecha de los botones se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+==== Crear día festivo ====
+No se pueden crear días festivos en CAP se deben crear en el ERP externo y sincronizar.
+
+==== Modificar días festivos ====
+No se pueden modificar días festivos en CAP se deben modificar en el ERP externo y sincronizar.
+
+==== Eliminar días festivos ====
+
+No se pueden eliminar días festivos en CAP se deben eliminar en el ERP externo y sincronizar.

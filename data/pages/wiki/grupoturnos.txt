@@ -1,0 +1,43 @@
+===== Grupo de turnos semanales=====
+
+En está vista se muestra la lista de los grupos de turnos ya ingresados en el sistema.
+{{ :wiki:grupoturnoindex.png?800 |}}
+\\
+Aquí mismo se muestran los botones para la creación de nuevos turnos, en la parte superior derecha, en el botón Nuevo.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+A lado de cada registro se muestran tres botones, el primero, con el icono de binoculares, es para ver los turnos que componen ese grupo, el segundo con el icono de lápiz es para la modificación y el tercero (basurero), es para borrar el registro.\\
+Bajo el botón de nuevo registro, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.
+
+
+==== Crear grupo turno semanal====
+
+Al presionar el botón de Nuevo en la pantalla anterior se mostrará la siguiente vista
+{{ :wiki:grupoturnocrear.png?800 |}}
+\\
+En esta vista en el primer campo captura el nombre del nuevo turno, después aparecen listados los diferentes turnos que están ingresados, solo se deben seleccionar los que pertenezcan al nuevo grupo de turnos, al final se presiona el botón guardar. En la esquina superior derecha esta el botón para volver a la ventana anterior, el botón de deshacer deja en blanco los campos.
+
+==== Modificar grupo de turnos ====
+
+Al presionar el botón del icono del lápiz (modificar registro) se mostrará la siguiente vista
+{{ :wiki:grupoturnoeditar.png?800 |}}
+\\
+En esta vista se muestra la información como esta guardada y se puede modificar, al terminar se presiona el botón modificar, el botón deshacer pone en blanco los campos, en la esquina superior derecha, se encuentra un botón para volver a la vista anterior.
+
+==== Mostrar grupo de turnos ====
+
+Al presionar el botón del icono de binoculares (mostrar registro) se mostrará la siguiente vista
+{{ :wiki:grupoturnomostrar.png?800 |}}
+\\
+En esta vista se muestran los turnos que forman parte del grupo, en la parte superior derecha se encuentra el botón regresar, para volver a la pantalla anterior, abajo de este botón se encuentra el cuadro de búsqueda, solo se tiene que escribir la palabra que se quiera y buscara en el listado.
+==== Eliminar grupo de turnos ====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+{{ :wiki:departmenteliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.

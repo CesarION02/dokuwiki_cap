@@ -1,0 +1,4 @@
+====Menú-Rol====
+Esta pagina es para ligar los menús con los roles de usuario, en la pagina aparece un listado de roles y un listados de menús, se tiene que encender el cuadro del rol con el menú para que aparezca en su vista, como se ve en la siguiente vista.\\
+{{ :wiki:menurol.png?600 |}}\\
+Al modificar los registros se guardar automaticamente.

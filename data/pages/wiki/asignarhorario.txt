@@ -1,0 +1,10 @@
+====== Asignación de horario ======
+
+Hay dos maneras de asignar un horario a un empleado; éstas dependen de sus horas de entrada y salida y de si el empleado tiene o no rotación de turnos.
+
+  * Cuando un empleado tiene un horario definido y este no cambiará en un largo tiempo, entonces se hace una asignación de horario en base a plantillas, explicado en este apartado - [[wiki:asignacionhorario | Asignación de horario]]
+
+  * Cuando un empleado está dentro de una rotación de turnos y su horario es cambiante cada semana o incluso tiene un horario diferente cada día, se hace una programación de turnos, detallada aquí - [[wiki:programacionturnos | Programación de turnos]]
+
+
+  * Otra modalidad de la programación de horarios es la programación de guardias sabatinas, para así controlar que el empleado haya asistido a realizarla o simplemente el sistema sepa que un empleado asistirá ese día cuando regularmente no lo haga - [[wiki:guardiassabatinas | Guardias sabatinas]]

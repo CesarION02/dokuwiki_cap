@@ -1,0 +1,131 @@
+====== Control de Acceso y Prenómina (CAP) 1.0 ======
+====== Manual de Usuario ======
+===== Introducción =====
+CAP es una aplicación web, desarrollada para la agilización del proceso de generación de prenóminas, basandose en información generada por el reloj checador incluido en CAP (CAPRelojChecador).\\
+CAP esta compuesto por **CAP Administrador** y **CAP Reloj Checador**.\\
+El siguiente documento es una guía para el uso de estos sistemas.\\
+
+===== Preguntas frecuentes =====
+  * ¿Cómo se da de alta un nuevo empleado? - [[wiki:altaempleado | Alta de empleado ]]
+  * ¿Cómo se asigna el horario a un empleado? - [[wiki:asignarhorario | Asignar horario ]]
+  * ¿Cómo se asigna puesto y/o departamento a un empleado? - [[wiki:asignarpuestoydetpo | Asignar puesto y depto ]]
+  * ¿Cómo se indica que un empleado estará de descanso, en día festivo o en capacitación? - [[wiki:nolaborables | Días no laborables ]]
+  * ¿Cómo se pueden justificar o indicar faltas, retardos, horas extra, falta de checadas? - [[wiki:ajustesprenomina | Ajustes para prenómina ]]
+
+===== Roles de usuario =====
+El sistema esta hecho para ser utilizado por diferentes perfiles de usuarios (roles), a continuación se muestra una lista de los roles y funciones a las cuales tendrán acceso para navegar dentro del manual y encontrar fácilmente los temas de interés.
+===Administrador de sistema===
+Este perfil tendrá acceso principalmente a las vistas de administración, para una configuración del sistema.
+  * Creación, modificación y eliminación de usuarios - [[wiki:user | Usuarios]].
+  * Creación y ordenamiento de menús - [[wiki:menu | Menú]].
+  * Creación, modificación y eliminación de roles - [[wiki:rol | Rol]].
+  * Colocar que menús se pueden ver por cada rol - [[wiki:menurol | Menú vs. rol]].
+  * Asignar roles a los usuarios - [[wiki:userrol | Usurio vs. rol]].
+  * Consulta de empleados con huella digital y faltantes, y poder modificar si pueden checar con huella o código o ambos - [[wiki:huellas | Huellas digitales]].
+
+===Auxiliar administrador===
+  * Pantalla en la que se muestra qué empleados ya tienen configurada la huella y cuáles no - [[wiki:huellas | Huellas digitales]]
+  * Cambio de contraseña - [[wiki:cambiocontraseña | Cambio contraseña]]
+
+=== Recursos Humanos ===
+Este perfil tendrá acceso principalmente a reportes y secciones administrativas.
+  * Reporte de entradas y salida en un mismo renglon - [[wiki:reportees | Reporte de ES]].
+  * Reporte de entradas y salidas en renglones diferentes - [[wiki:reporte2 | Reporte 2]].
+  * Reporte de STPS - [[wiki:reportechecadas | Reporte de STPS]].
+  * Reporte de tiempos extras - [[wiki:reportepercepciones | Reporte de tiempos extra]].
+  * Reporte de prenómina - [[wiki:reporteprenomina | Reporte de prenómina]].
+  * Asignación y consulta de guardias sabatinas - [[wiki:guardiassabatinas | Guardias sabatinas]].
+  * Asignación y consulta de días festivos - [[wiki:asignacionfestivos | Asignar día festivo]].
+  * Creación, modificación y eliminación de plantillas de horario - [[wiki:platillahorario | Plantillas horarios fijos]].
+  * Asignación de plantillas de horario - [[wiki:asignacionhorario | Asignar horario fijo]]. 
+  * Sincronización de catalogos con ERP - [[wiki:sincronizacion | Sincronización]]
+  * Asignar puesto y departamento a empleados pendientes - [[wiki:asignacionpstoydeptopen | Empleados vs. departamentos]]
+  * Asignar grupos de departamento a cada usuario - [[wiki:asignaciongposdept | Usuario vs. grupo de departamentos CAP]]
+  * Catalogo de departamentos nóminas - [[wiki:departamentosnominas | Departamentos nóminas]]
+  * Catalogo de áreas - [[wiki:areas | Áreas]]
+  * Catalogo de empleados - [[wiki:empleados | Empleados]]
+  * Catalogo de empleados fóraneos - [[wiki:empleadoforaneo | Empleados fóraneos]]
+  * Mis empleados - [[wiki:nombrecorto | Mis empleados]]
+  * Catalogo de días festivos - [[wiki:diasfestivos | Días festivos]]
+  * Catálogo de turnos semanales - [[wiki:turnos | Turnos semanales]]
+  * Catálogo de grupos de turnos semanles - [[wiki:grupoturnos | Grupo de turnos semanales]]
+  * Catálogo de incidencias - [wiki:nolaborables | Incidencias ]]
+  * Cambio de contraseña - [[wiki:cambiocontraseña | Cambio contraseña]]
+
+===COORDINADOR DE TURNOS SEMANALES===
+Este perfil tendrá acceso a la programación de turnos semanales principalmente.
+  * Creación y consulta de programaciones de turnos semanales - [[wiki:programacionturnos | Asignar turnos semanales]].
+  * Asignación de capacitaciones - [[wiki:nolaborables | Capacitaciones ]]
+  * Asignación de turnos especiales - [[wiki:turnoespecial | Turnos especiales]]
+  * Mis empleados - [[wiki:nombrecorto | Mis empleados]]
+  * Configuración de departamentos CAP - [[wiki:departamentos | Departamentos CAP]]
+  * Configuración de puestos - [[wiki:puestos | Puestos]]
+  * Configuración de grupo departamentos - [[wiki:grupodep | Grupo de departamentos CAP]]
+  * Cambio de contraseña - [[wiki:cambiocontraseña | Cambio contraseña]]
+
+===COORDINADOR DE HORARIOS FIJOS===
+  * Creación y consulta de asignación de horarios fijos - [[wiki:asignacionpordept | Asignación de horarios fijos]]
+  * Ver horario en día especifico - [[wiki:diaespecifico | Ver horario en día especifico]]
+  *  - [[wiki:nombrecorto | Nombres cortos]]
+  * Configuración de departamentos CAP - [[wiki:departamentos | Departamentos CAP]]
+  * Configuración de puestos -[[wiki:puestos | Puestos]]
+  * Cambio de contraseña - [[wiki:cambiocontraseña | Cambio contraseña]]
+
+===Administrador===
+  * Todos los Accesos
+  
+===== CAP Administrador =====
+==== Catálogos ====
+  * [[wiki:areas | Áreas]]
+  * [[wiki:departamentos | Departamentos CAP]]
+  * [[wiki:puestos | Puestos]]
+  * [[wiki:departamentosnominas | Departamentos nominas]]
+  * [[wiki:grupodep | Grupo de departamentos CAP]]
+  * [[wiki:diasfestivos | Días festivos]]
+  * [[wiki:empresas | Empresas]]
+  * [[wiki:empleados | Empleados]]
+  * [[wiki:empleadoforaneo | Empleados fóraneos]]
+  * [[wiki:nombrecorto | Mis empleados]]
+  * [[wiki:asignaciongposdept | Usuario vs. grupo de departamentos CAP]]
+  * [[wiki:asignacionpstoydeptopen | Empleado vs. departamento]]
+  * [[wiki:cambiocontraseña | Cambio contraseña]]
+  * [[wiki:huellas | Huella digital]]
+  * [[wiki:nolaborables | Incidencias ]]
+  * [[wiki:sincronizacion | Sincronización]]
+  * [[wiki:periodos | Periodos procesados]]
+
+==== Programación de Turnos semanales/Horarios fijos ====
+  * [[wiki:asignacionpordept | Asignar horario fijo]]
+  * [[wiki:programacionturnos | Asignar de turnos semanales]]
+  * [[wiki:asignacionhorario | Asignar horario global]]
+  * [[wiki:platillahorario | Plantillas horarios fijos]]
+  * [[wiki:turnoespecial | Turnos especiales]]
+  * [[wiki:nolaborables | Capacitaciones ]]
+  * [[wiki:turnos | Turnos semanales]]
+  * [[wiki:grupoturnos | Grupo de turnos semanales]]
+  * [[wiki:diaespecifico | Horario fecha exacta]]
+  * [[wiki:guardiassabatinas | Guardias sabatinas]]
+  * [[wiki:asignacionfestivos | Asignar día festivo]]
+
+==== Reportes ====
+  * [[wiki:reportees | Reporte de ES]]
+  * [[wiki:reporte2 | Reporte 2]]
+  * [[wiki:reportechecadas | Reporte de STPS]]
+  * [[wiki:reportepercepciones | Reporte de percepciones variables]]
+  * [[wiki:reporteprenomina | Reporte de prenómina]]
+
+==== Ingreso a plataforma ====
+  * [[wiki:login | Ingreso a plataforma]]
+
+==== Catálogos administración ====
+  * [[wiki:user | Usuarios]]
+  * [[wiki:menu | Menú]]
+  * [[wiki:rol | Roles]]
+  * [[wiki:menurol | Menú - rol]]
+  * [[wiki:userrol | Usurio vs. rol]]
+
+===== CAP Reloj Checador =====
+
+  * [[wiki:checador | Reloj Checador]]
+
+

@@ -1,0 +1,30 @@
+===== Turnos especiales =====
+
+
+En este apartado se asignan los turnos especiales a un empleado esto para cuando un empleado que tiene asignado su horario fijo o su turno semanal, pero un día tendrá un turno distinto, se debe dar de alta en esta pantalla:
+
+{{:wiki:gposdepts.jpg|}}
+Aquí mismo se muestran los botones para la creación de nuevo turno especial, en la parte superior derecha, en el botón Nuevo.
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la modificación y el segundo (basurero), es para borrar el registro.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.\\
+
+==== Crear turno especial ====
+Al presionar el botón nuevo se muestra la siguiente pantalla.\\
+En el primer campo se debe elegir el empleado al que se le asignará el turno, en el segundo campo se coloca el turno que tendrá y en el tercero se pone el día que se asignará el turno, al terminar se presiona el botón guardar, el botón deshacer pone los campos en blanco.\\
+En la esquina superior derecha esta el botón de regresar para volver al listado.\\
+
+==== Modificar turno especial ====
+Al presionar el botón modificar se muestra la siguiente pantalla.\\
+Se muestra la información del registro seleccionado, solo se puede modificar el turno o la fecha, el empleado no se puede modificar, para terminar se da en el botón de actualizar, el botón deshacer pone los campos como estaban originalmente, en la esquina superior derecha esta el botón regresar para volver al listado principal.
+
+==== Eliminar turno especial ====
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+{{ :wiki:departmenteliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.

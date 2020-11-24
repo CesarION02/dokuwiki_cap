@@ -1,0 +1,36 @@
+======Huella digital =====
+
+La vista principal de esta funcionalidad es la siguiente.\\
+{{ :wiki:huellaindex.png?800 |}}\\
+En esta vista se muestran el número de empleado, el nombre del empleado, la manera de checar (3 opciones, huella digital, código empleado o ambas), se muestra si se tiene huella registrada o no(en color verde cuando se tiene registrada y en rojo cuando no se tiene), también cada renglón tiene dos botones, el primero con icono de lápiz es para modificar la manera de checar, y el segundo con icono de x es para desactivar el registro, esto para los empleados que sea innecesario saber si se tiene huella o no registrada.\\
+
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Al lado derecho de los botones se encuentra un campo para seleccionar entre registros activos, inactivos y todos, se debe seleccionar una opción y presionar el botón de la lupa para cargar los registros seleccionados.\\
+Bajo este campo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.\\
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la edición y el segundo (basurero), es para borrar el registro, el segundo botón cambia en el caso de que sean registros inactivos, el botón es un icono de correcto y es para activar el registro.\\
+====Modificar====
+Al presionar el botón de modificar el que tiene icono de lápiz muestra la siguiente vista.\\
+{{ :wiki:huellaedit.png?800 |}}\\
+Se muestra en la vista el número de empleado, nombre del empleado seleccionado a modificar y el último campo es donde se seleccionará la nueva forma a checar, para finalizar la modificación se da en el botón de actualizar.\\
+El botón de deshacer sirve para poner los campos como estaban originalmente, en la esquina superior derecha se encuentra el botón de regresar para volver al listado.
+
+====Desactivar====
+Al presionar el botón de desactivar, el del icono de la x,  en alguno de los renglones se muestra el siguiente mensaje.\\
+{{ :wiki:huelladescativar.png?400 |}}\\
+Para seguir adelante con desactivar el empleado se da en el botón de aceptar y desaparecerá de la la lista, en caso de no querer seguir dar en cancelar.\\
+====Empleados desactivados====
+Al presionar el botón de empleados inactivos, se abrirá la siguiente ventana.\\
+{{ :wiki:huelladesactivados.png?800 |}}\\
+En esta vista se muestran los mismos campos que en index, pero con la diferencia que en cada renglón solo se encuentra un botón con el signo de correcto, el cual es para activar al empleado y vuelva a aparecer en la primera lista.\\
+En la esquina superior izquierda se encuentra un botón con el texto activos, esto regresará a la primera lista con todos los empleados activos.\\
+====Activar====
+Al presionar el botón con el icono de correcto, se muestra la siguiente ventana.\\
+{{ :wiki:huellaactivar.png?400 |}}\\
+para seguir adelante con la activación del empleado se da en el botón de aceptar y desaparecerá de la lista, en caso de no querer seguir dar cancelar.\\
+
+ 

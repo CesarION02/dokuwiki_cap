@@ -1,0 +1,9 @@
+====Menú====
+Al ingresar a la vista de menú, se mostrarán los menús registrados al momento, el cambiar un menú de posición influirá como se mostrará en pantalla, también para que un menú este dentro de otro basta con ponerlo de bajo y recorrerlo a la derecha como se muestra en la imagen.\\
+{{ :wiki:menuindex.png?600 |}}\\
+Los cambios a los menus se guardan automáticamente cuando se modifican en la vista.
+En la esquina superior derecha esta el botón para generar nuevos menús.
+====Menú crear====
+Al ingresar a esta pantalla se mostrará lo siguiente.\\
+{{ :wiki:menucrear.png?600 |}}\\
+En el primer campo se debe poner el nombre del menú que aparecerá a la vista del usuario, en el segundo campo la url a la que apunta, y en el último campo un icono que aparecerá a lado del nombre. Para finalizar se debe presionar el botón de guardar.

@@ -1,0 +1,5 @@
+==== Ingreso a plataforma ====
+La pantalla de ingreso a la plataforma es la siguiente\\
+{{ ::login.png?400 |}}
+\\
+En el primer campo se pone el email de la cuenta a utilizar, y en el campo de abajo la contraseña.

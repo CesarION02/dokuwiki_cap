@@ -1,0 +1,6 @@
+====Sincronización====
+Esta funcionalidad es la que sincroniza los catálogos de CAP con los del ERP, se sincronizan los empleados, los departamentos, primer día del año e incidencias.\\
+Para hacer que se corra la funcionalidad se debe checar en los menus y esta la opción sincronizar si tu rol esta permitido que lo haga.\\
+{{ :wiki:sincroni.png?200 |}}
+Al presionar la opción se hará la sincronización y mostrara un mensaje de sincronización correcta, y se recargará la pantalla de donde se mandará llamar la función, esto para siempre que falte algo en un catalogo, poder sincronizar y que aparezca la lista actualizada.\\
+

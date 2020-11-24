@@ -1,0 +1,7 @@
+====== Control de acceso y prenómina(CAP)1.0 ======
+======Manual de Operación======
+  * [[wiki:relojchecador | CAP Reloj Checador]]
+  * [[wiki:cap | CAP Administrador]]
+  * [[wiki:caplink | CAPLink]]
+  * [[wiki:doku | Dokuwiki]]
+  * [[wiki:respaldos | Respaldos]]

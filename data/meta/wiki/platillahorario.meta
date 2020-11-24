@@ -1,0 +1,11 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1588698719;s:8:"modified";i:1598466033;}s:11:"last_change";a:8:{s:4:"date";i:1598466033;s:2:"ip";s:11:"10.10.10.28";s:4:"type";s:1:"E";s:2:"id";s:20:"wiki:platillahorario";s:4:"user";s:5:"admin";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-13;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"contributor";a:1:{s:5:"admin";s:27:"Cesar Ivan Orozco Natividad";}s:5:"title";s:28:"Plantillas de horarios fijos";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:28:"plantillas_de_horarios_fijos";s:5:"title";s:28:"Plantillas de horarios fijos";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:27:"crear_plantilla_de_horarios";s:5:"title";s:27:"Crear plantilla de horarios";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:31:"modificar_plantilla_de_horarios";s:5:"title";s:31:"Modificar plantilla de horarios";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:29:"eliminar_plantilla_de_horario";s:5:"title";s:29:"Eliminar plantilla de horario";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:278:"Plantillas de horarios fijos
+
+En está vista se muestra la lista de plantillas de horario ya ingresados en el sistema.
+
+
+
+
+
+
+Aquí mismo se muestra el botón para la creación de nuevas plantillas, en la parte superior derecha.
+Bajo el titulo de la vista se encuentran 5 botones";}s:8:"relation";a:2:{s:5:"media";a:4:{s:23:"wiki:plantillaindex.png";b:1;s:22:"wiki:scheduleindex.png";b:1;s:21:"wiki:scheduleedit.png";b:1;s:21:"wiki:areaeliminar.png";b:1;}s:10:"firstimage";s:23:"wiki:plantillaindex.png";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1588698719;s:8:"modified";i:1598466033;}s:11:"last_change";a:8:{s:4:"date";i:1598466033;s:2:"ip";s:11:"10.10.10.28";s:4:"type";s:1:"E";s:2:"id";s:20:"wiki:platillahorario";s:4:"user";s:5:"admin";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-13;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"contributor";a:1:{s:5:"admin";s:27:"Cesar Ivan Orozco Natividad";}}}

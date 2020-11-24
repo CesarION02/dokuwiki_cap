@@ -1,0 +1,133 @@
+=====CAP Reloj Checador=====
+El sistema de reloj checador, es donde se realiza el alta de las huellas digitales, y donde los empleados realizaran sus checadas.
+En el servidor donde se instala el software se instalará lo siguiente:
+
+====MySql====
+El instalador se llama MySql-5.5.27-winx64.msi, se debe dar doble click sobre el archivo, lo cual abrirá la siguiente ventana.\\
+{{ :wiki:1mysql.jpg?400 |}}\\
+En esta ventana se debe dar click en el botón next lo cual abrirá la siguiente ventana: \\
+{{ :wiki:2myswl.jpg?400 |}}\\
+De nuevo se debe presionar en el botón next\\
+{{ :wiki:3mysql.jpg?400 |}}\\
+En la nueva ventana se debe seleccionar la instalación típica y el botón next.\\
+{{ :wiki:4mysql.jpg?400 |}}\\
+Ahora se debe presionar el botón install para iniciar con el proceso.\\
+Al finalizar el proceso de instalación se mostrará la siguiente ventana.\\
+{{ :wiki:5mysql.jpg?400 |}}\\
+Una vez instalado, se debe configurar el servidor, en esta ventana se debe asegurar que la marca Launch the MySQL Instance Configuration Wizard esté activa, y presionar el botón finish, esto abrirá la siguiente ventana.\\
+{{ :wiki:6mysql.jpg?400 |}}\\
+En la nueva ventana se presiona el botón next para comenzar con la configuración.\\
+{{ :wiki:7mysql.jpg?400 |}}\\
+En la ventana se debe seleccionar la opción Detailed Configuration y presionar el botón next, para que se abra la siguiente ventana.\\
+{{ :wiki:8mysql.jpg?400 |}}\\
+En la ventana se debe seleccionar la opción Developer Machine y el botón next.\\
+{{ :wiki:9mysql.jpg?400 |}}\\
+En esta ventana se debe seleccionar la opción Multifunctional Database y el botón next para continuar.\\
+{{ :wiki:10mysql.jpg?400 |}}\\
+En esta ventana solo se debe presionar el botón next.\\
+{{ :wiki:11mysql.jpg?400 |}}\\
+En esta ventana se debe seleccionar la opción Decision Support(DSS)/OLAP y después el botón next, lo cual abrirá la siguiente ventana.\\
+{{ :wiki:12mysql.jpg?400 |}}\\
+En la ventana se deberá checar que ambos checkbox estén seleccionados y que el número de puerto sea 3306, y dar click en next para continuar.\\
+{{ :wiki:13mysql.jpg?400 |}}\\
+Aquí se debe elegir la opción Standar Character Set y verificar que en el textarea del final esta la palabra latin1 y a continuación dar click en el botón de next.\\
+{{ :wiki:14mysql.jpg?400 |}}\\
+En esta ventana se deberán seleccionar ambos checkbox y presionar el botón next.\\
+{{ :wiki:15mysql.jpg?400 |}}\\
+En la ventana en el campo new root password se coloca la contraseña msroot, se repite en el campo confirm y se presiona el botón next para continuar.\\
+{{ :wiki:16mysql.jpg?400 |}}\\
+Por último en esta ventana se debe presionar el botón execute para que comience el último proceso.\\
+{{ :wiki:17mysql.jpg?400 |}}\\
+El procesos estará terminado cuando los checkbox esten seleccionados, como se muestra en la imagen anterior, para terminar se presiona el botón de finish.
+
+====JAVA====
+El instalador se llama jre-8u45-windows-x64.exe se debe dar doble click sobre el archivo, lo cual abrirá la siguinete ventana.\\
+{{ :wiki:1java.jpg?400 |}}\\
+En esta ventana se debe dar click en el botón de instalar, y se mostrará la siguiente ventana.\\
+{{ :wiki:2java.jpg?400 |}}\\
+Esta ventana mostrará el avance del proceso de instalación, cuando se llena la barra verde indicará que el proceso se finalizo con exito y mostrará la siguiente ventana.\\
+{{ :wiki:3java.jpg?400 |}}\\
+En esta ventana se debe presionar el botón Recordarme más tarde, esto mostrará la siguiente ventana.\\
+{{ :wiki:4java.jpg?400 |}}\\
+Se debe presionar el botón de cerrar, con esto se terminará el proceso de instalación.\\
+==== Drivers para lector biometrico====
+==== DigitalPersona One touch for windows SDK para lector 4500====
+Se deberá dar doble click sobre el archivo Setup.exe lo cual desplegará la siguiente ventana.\\
+{{ :wiki:1sdk.jpg?400 |}}\\
+En esta ventana se presionará el botón next para comenzar.\\
+{{ :wiki:sdk_faltante.jpg?400 |}}\\
+En esta ventana se selecciona la primera opción y se da en el botón next.\\
+{{ :wiki:sdk_faltante2.jpg?400 |}}\\
+En esta ventana se presiona el botón next para continuar.\\
+{{ :wiki:3sdk.jpg?400 |}}\\
+En esta ventana se debe seleccionar la opción Java y presionar el botón next.\\
+{{ :wiki:sdkfaltante3.jpg?400 |}}\\
+En la ventan se solo se debe presionar el botón next para continuar.\\
+{{ :wiki:4sdk.jpg?400 |}}\\
+Para continuar en la ventana se tendrá que presionar el botón install.\\
+{{ :wiki:5sdk.jpg?400 |}}\\
+Para concluir con la instalación se tendra que presionar el botón de finish.
+==== SDK para lector 5300 ====
+Para este lector se debe hacer una instalación particular, primero se debe desinstalar todos los drivers que se tengan de u.are.u, segundo se debe instalar el driver especial para u.are.u 5300, el cual también se llamará setup.exe pero el cual estará en otra carpeta para no confundirlos, su instalación es muy parecida al SDK de 4500, después de instalar este driver, se debe instalar ahora el SDK para el 4500 siguiendo los pasos mostrados en la sección DigitalPersona One touch for windows SDK para lector 4500, al finalizar la instalación se debe volver a correr el setup.exe del lector 5300 pero en lugar de dar la opción de instalación, se da a la opción de reparar, al finalizar el proceso el lector u.are.u 5300 debe estar en funcionamiento correcto para usarse con el reloj checador.
+==== Software reloj checador====
+Se debe colocar la carpeta del sistema RelojChecador en la carpeta "documentos", como se muestra en la imagen a continuación.\\
+{{ :wiki:servidor.jpg?400 |}}\\
+Dentro de la carpeta, estará una carpeta llamada dist, dentro estara un archivo jar llamado RelojChecador.jar, este solo basta darle doble click para ponerlo a funcionar, para facilidad se debe hacer un acceso directo del mismo y colocarlo en el escritorio del servidor.\\
+{{ :wiki:servidor2.jpg?400 |}}\\
+
+==== Archivo configuración ====
+Dentro de la carpeta del sistema CAP Reloj Checador existe un archivo llamado caprelojchecador.propierties, en el cual se debe revisar que esten los siguientes datos.\\
+  * notiSencilla - correos a los que se envían notificaciones por correo electrónico del inicio y detención normal del sistema. 
+  * notiFalla - correos a los que se envía notificaciones por correo electrónico de una falla en el lector biometrico, la conexión o desconexión del mismo, así como las fallas en general del sistema.
+  * notiChecada - correos a los que se envía notificaciones por correo electrónico de una checada de un empleado que esta dado de baja, una checada de un empleado en un día que tiene asignado un día festivo o una checada de un empleado en un día donde tiene una incidencia capturada.  
+  * ip - debe contener la dirección ip de la maquina donde este la base de datos del sistema.
+  * puerto - debe contener el puerto en el cual corre MYSQL en la maquina donde esta la base de datos.
+  * db - el nombre de la base de datos.
+  * usuario - el usuario que se utiliza para ingresar a MYSQL.
+  * pass - la contraseña que se utiliza para ingresar a MYSQL.
+  * intervaloFuncion - número en mili-segundos que indica el intervalo en el que se estará llenando la bitácora, con el mensaje para saber si el sistema sigue funcionando.
+  * intervaloFalla - número en mili-segundos que indica el intervalo en el que se estará llamando la función que realiza un chequeo de que el lector biometrico este funcionando correctamente, en caso de buen funcionamiento, se pone un mensaje en la bitácora de funcionamiento correcto, en caso contrario se envía correo de su mal funcionamiento y se llena la bitácora también indicando el mal funcionamiento.
+  * host - el host del servidor correo electrónico que se utiliza para enviar las notificaciones del sistema.
+  * port - el puerto que utiliza el servidor de correo electrónico.
+  * sender - el correo electrónico del que se enviarán las notificaciones.
+  * user - el usuario para ingresar en el correo electrónico.
+  * password - contraseña para ingresar en el correo electrónico.
+
+====Bitácora y correos de notificación ====
+Cuando el CAPRelojChecador este en funcionamiento genera una bitácora la cual se guarda en la misma carpeta dist, los distintos mensajes de la bitacora son los siguientes:\\
+  * Esta Funcionando  Fri May 29 16:32:46 CDT 2020 - se muestra cuando el sistema esta en correcto funcionamiento.
+  * El lector esta activado Fri May 29 16:33:55 CDT 2020 - se muestra cuando el lector biometrico tiene un funcionamiento correcto.
+  * El Sensor de Huella Digital fue conectado Fri May 29 15:59:14 CDT 2020 - se muestra cuando se conecta el lector biometrico.
+  * El Sensor de Huella Digital esta Desactivado o no Conectado Fri May 29 15:51:48 CDT 2020- se muestra cuando se desconecta el lector biometrico.
+  * El lector esta desactivado Fri May 29 15:55:48 CDT 2020 - se muestra cuando el lector esta deshabilitado.
+  * Se inicia el funcionamiento de CAPRelojChecador Fri May 29 15:47:41 CDT 2020 - se muestra cuando se inicia el sistema.
+  * Se cierra el funcionamiento de CAPRelojChecador Fri May 29 13:03:47 CDT 2020 - se muestra cuando se detiene de una manera normal el sistema.
+
+Los correos electrónicos de notificación se mandan por los siguientes motivos.
+  * Al iniciar el sistema.
+  * Al finalizar el sistema de una manera normal.
+  * Cuando se conecta el lector biometrico.
+  * Cuando se desconecta el lector biometrico.
+  * Cuando hay un error en el sistema.
+  * Cuando el lector esta des-habilitado.
+  * Cuando se hace una checada por un empleado que esta dado de baja.
+  * Cuando se hace una checada por un empleado que tiene registrado un día festivo en esa fecha.
+  * Cuando se hace una checada por un empleado que tiene registrado una incidencia en esa fecha.
+
+====RESPALDO BASE DATOS CUANDO SE PIERDE CONEXIÓN CON BASE DE DATOS PRINCIPAL====
+Cuando se pierde la conexión con la base de datos principal, entra la base de datos de SQLite la cual guarda las checadas mientras se recupera la conexión a la base de datos.\\
+Para hacer la configuración basta con revisar que el archivo backup_checador(tipo Data Base File), este dentro de la carpeta dist, que esta dentro de la carpeta RelojChecador.\\
+
+Para que se ejecute el programa que tomara las checadas del backup para llevarlas a la base de datos principal, se debe primero generar un archivo .bat el cual contendrá lo siguiente.\\
+
+----
+@echo off\\
+cd C:\Users\swaplicado\Documents\NetBeansProjects\RelojChecador\dist\ \\
+java -jar BackupRegister.jar\\
+exit\\
+
+----
+
+Después de generar el bat, se debe ingresar al programador de tareas de windows, en la cual se debe generar una tarea que se repita, todos los días cada hora, y ejecute el archivo bat, esto para que cada hora cheque si hay checadas en la base de datos de respaldo para pasarlos a la base de datos principal y no se pierda la información.\\
+
+

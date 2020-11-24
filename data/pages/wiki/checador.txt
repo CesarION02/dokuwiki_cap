@@ -1,0 +1,26 @@
+===== Sistema Reloj Checador =====
+==== Sistema de checadas ====
+La vista principal del sistema de reloj checador es la siguiente.\\
+{{ :wiki:reloj.png?600 |}}
+Se muestra la fecha y la hora actual en pantalla, tambien se muestra un mensaje que es para saber si se checará entrada o salida, para cambiar entre entrada y salida se presiona el botón de signo más para entrada y el botón con signo de menos para la salida.
+Para hacer la checada, basta con colocar el dedo sobre el lector de huella dactilar, si la checada fue correcta se muestra el siguiente mensaje.\\
+{{ :wiki:reloj_bien.png?600 |}}\\
+y cuando la checada no fue correcta se muestra el siguiente mensaje \\
+{{ :wiki:relojmal.png?600 |}}\\
+==== Checadas con codigo ====
+Algunos usuarios que por la naturaleza de su trabajo tienen un desgaste muy fuerte en las huellas y no las le el lector, se utilizarán los códigos para checar, el proceso es casi el mismo, primero se elige si es entrada o salida, con los botones de mas y menos, y después se debe presionar el botón de 0 esto abrirá la siguiente ventana.\\
+{{ :wiki:codigo.png?400 |}}\\
+En esta ventana se ingresa el número de empleado y se presiona enter, entonces en pantalla aparece el mensaje de que fue correcta o incorrecta la checada.
+
+==== Pantalla de ayuda ====
+Para abrir la pantalla de ayuda se presiona el botón de diagonal y esto abrirá la siguiente pantalla\\
+{{ :wiki:ayuda.png?400 |}}\\
+para cerrar la ventana se presiona el botón enter.
+
+==== Alta de huella de empleado ====
+Para abrir esta ventana se debe presionar el botón de asterisco, que abrirá una ventana donde se pedirá la contraseña para entrar al sistema de alta.\\
+{{ :wiki:altaadim.png?400 |}}\\
+Se ingresa la contraseña y se da enter, esto abrirá la siguiente ventana.\\
+{{ :wiki:altapantalla.png?400 |}}\\
+En el primer campo se elige el empleado al cual se le tomará la huella digital, después de seleccionarlo, solo debe poner su huella dactilar sobre el lector, en pantalla se mostrará un mensaje de cuantas veces más se debe colocar el dedo (en total son 4 si fueran todas correctas).
+Al finalizar te indicará que el proceso se finalizo con éxito y regresará a la pantalla principal del checador.

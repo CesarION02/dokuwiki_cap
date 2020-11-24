@@ -1,0 +1,70 @@
+====== Control de acceso y prenómina(CAP)1.0 ======
+======Manual Mantenimiento======
+====CAP Reloj Checador====
+Para el desarrollo del reloj checador se utilizarón los siguientes programas.\\
+  * Netbeans IDE 8.2 - se descargo de la siguiente liga https://netbeans.org/downloads/8.2/rc/
+  * jdk1.8.0_191 - este se descarga junto con la versión de netbeans.
+  * DigitalPersona one touch for windows SDK - El cual viene incluido en los archivos que te dan con el lector biometrico DigitalPersona UareU.
+El leguanje utilizado para el desarrollo fue Java, y las librerías son las siguientes:\\
+  * dpfpenrollment.jar - que es utilizada para las funciones del DigitalPersona.
+  * dpfpverification.jar - igual que el anterior es parte de DigitalPersona.
+  * dpotapi.jar - otra libreria para DigitalPersona.
+  * dpotjni.jar - otra libreria para DigitalPersona.
+  * MySQL JDBC Driver - es una librería global de netbeans, se utilizo para hacer la conexión con la base de datos.
+  * sa-lib-10.jar
+  * javamail-1.4.5
+  * sqlite-jdbc-3.30.1.jar - es una librería utilizada para la conexión con la base de datos utilizada para hacer el respaldo de checadas cuando se pierde la conexión con la base de datos MySQL.
+  * SQLite Administrator - es una herramienta para crear, diseñar y administrar bases de datos de SQLite. La pagina oficial es la siguiente http://sqliteadmin.orbmu2k.de/.
+
+El lector biometrico utilizado es el U.are.U 4500 de la marca digitalPersona como el que se muestra en la siguiente imagen.\\
+{{ :uareu.png?400 |}}\\
+Se anexa link de la documentación oficial. {{ ::uareu_4500.pdf |}}
+
+====CAP====
+Para el desarrollo del sistema control de asistencia y prenomina, se utilizaron los siguientes programas:
+  * xampp - la versión utilizada es 7.1.25 la cual fue descargada de la siguiente liga https://www.apachefriends.org/es/download.html, en esta misma versión se incluye PHP 7* y Mysql que tambien fue utilizado en el desarrollo.
+  * Visual studio code - el cual fue descargado de la siguiente liga https://code.visualstudio.com/
+  * MySQL Query Browser - el cual se descargo de la siguiente liga https://downloads.mysql.com/archives/query/
+  * Composer - este fue descargado para así poder hacer uso de laravel, fue descargado de la siguiente liga https://getcomposer.org/download/.
+  * Laravel - para la generación de un proyecto laravel se necesita primero tener composer y solo ir a la carpeta donde se pondrá el proyecto en el cmd y escribir el siguinete comando, composer create-project laravel/laravel nombre_del_proyecto --prefer-dist, se utilizo la version 5.8.
+  * Github Desktop - se descargo de la siguiente liga https://desktop.github.com/
+
+El lenguaje utilizado para realizar el proyecto es php, utilizando el framework Laravel, y utilizando javascript también. 
+La librerías utilizadas de laravel son las siguientes.
+  * elibyy/tcpdf-laravel - versión 5.8.* - el cual se utilizo para la creación de los pdf dentro del sistema, su documentación esta en la siguiente liga http://github.com/elibyy/tcpdf-laravel
+  * guzzlehttp/guzzle - versión 6.5 - la cual fue utilizada para hacer la conexión con el web service (CAPLink), su documentación esta en la siguiente liga https://github.com/guzzle/guzzle
+  * nesbot/carbon - versión 1.39 - el cual se utiliza para el manejo de las fechas en la parte de php, la documentación esta en la siguiente liga https://carbon.nesbot.com/.
+  * arryvdh/laravel-debugbar - versión 3.3 - se utilizo para el debugeo del sistema, en cada pantalla cargada te muestra datos importantes que se hacen uso durante la fase de desarrollo, o detección de bugs, la documentación esta en la siguiente liga https://github.com/barryvdh/laravel-debugbar
+Las librerias o plugins utilizados para javascript son las siguientes:
+  * jQuery Validation Plugin - la documentación se encuentra en la siguiente liga https://jqueryvalidation.org/.
+  * SweetAlert - el cual fue utilizado para mostrar los mensajes mandados desde javascript, de una manera más estilizada, la documentación de este plugin esta en la siguiente liga https://sweetalert.js.org/guides/.
+  * dataTables - fue utilizado para estilizar y dar funciones especificas a las tablas generadas en el sistema, da varias opciones, como el ordenamiento por una columna especifica, el reordenamiento de columnas, la exportación a excel, la impresión, entre otras, la documentación se encuentra en la siguiente liga https://datatables.net/.
+  * chosen js - fue utilizado para hacer los selects más amigables para el usuario, la documentación se encuentra en la siguiente liga https://harvesthq.github.io/chosen/.
+  * vue js - la documentacion se encuentra en la siguiente liga https://vuejs.org/
+  * axios - una librería JavaScript que puede ejecutarse en el navegador y que nos permite hacer sencillas las operaciones como cliente HTTP, por lo que podremos configurar y realizar solicitudes a un servidor y recibiremos respuestas fáciles de procesar, la documentación esta en la siguiente liga https://github.com/axios/axios.
+
+Para el panel que contiene los menus se utilizo AdminLTE Bootstrap Admin Dashboard Template, el cual se descargo de la siguiente liga https://adminlte.io/.
+====CAPLink====
+CAPLink es un sistema para realizar el paso de información de un sistema ERP externo a CAP, como lo son empleados, departamentos, primer dia del año, días festivos, etc.\\\
+El protocolo de comunicación entre CAPLink y CAP, es de CAP haciendo peticiones get, a lo cual se le responde con un JSON con la información.\\
+Los programas utilizados para este desarrollo son los siguientes.\\
+  * Maven - el cual se descargo de la siguiente liga https://maven.apache.org/.
+  * SpringToolSuite4 - este es el programa que se utilizo para la creación del proyecto, y el desarrollo, se descargo de la siguiente liga https://spring.io/tools.
+
+Dentro del proyecto creado en springToolSuite se utilizarón las siguientes librerias:
+  * siie32 - que es el jar del proyecto de ERP propio de Software Aplicado, de ahí se utilizan los métodos para la recuperación de la información que después de envía a CAP.
+  * mysql-connector-java-5.1.23-bin - que es el utilizado para hacer la conexión a la base de datos dentro del sistema siie.
+  * jackson-databind-2.10.3
+  * jackson-core-2.10.3
+  * jackson-annotations-2.10.3 - los ultimas tres librerías son utilizadas para la generación del JSON que se envía como respuesta al sistema CAP.
+==== Dokuwiki - Documentación ====
+Para realizar la documentación del sistema (Manual de Usuario, Manual de Operación y Manual de Mantenimiento), se utilizo este software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas.\\
+Se descargo la versión recomendada en el sitio de dokuwiki, en el mismo sitio se encuentra toda la documentacion para su uso, el link es el siguiente https://www.dokuwiki.org/es:dokuwiki.\\
+Dentro de dokuwiki se descargaron las plantillas:
+  - Plantilla bootstrap3
+La forma de instalar las plantillas, es ir a la web de dokuwiki y en la parte izquierda estan estos accesos directos.\\
+{{ ::dokuwiki10.png?200 |}}\\
+En esta se elige la opción Extencions lo cual te mandará a la siguiente ventana.\\
+{{ ::dokuwiki11.png?600 |}}\\
+En esta ventana se elige la opción collection of templates, y dentro de esta ventana se buscan los templates a descargar.\\
+Cuando se tengan descargados, se descomprimen y se ponen en la siguiente ruta C://xampp/htdocs/dokuwiki/lib.

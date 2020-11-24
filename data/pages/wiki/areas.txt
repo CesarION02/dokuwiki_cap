@@ -1,0 +1,43 @@
+===== Áreas =====
+
+En está vista se muestra la lista de las áreas ya ingresadas en el sistema.\\
+
+{{ :wiki:areaindex.png?800 |}}
+\\
+
+Aquí mismo se muestran los botones para la creación de nuevas áreas, en la parte superior derecha, en el botón Nuevo.\\
+
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo se encuentra un campo para seleccionar entre registros activos, inactivos y todos, se debe seleccionar una opción y presionar el botón de la lupa para cargar los registros seleccionados.\\
+Bajo este campo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.\\
+A lado de cada registro se muestran dos botones, el primero, con el icono de lápiz es para la edición y el segundo (basurero), es para borrar el registro, el segundo botón cambia en el caso de que sean registros inactivos, el botón es un icono de correcto y es para activar el registro.\\
+==== Crear área ====
+
+Al presionar el botón de Nuevo en la pantalla anterior se mostrará la siguiente vista
+{{ :wiki:areacrear.png?800 |}}
+\\
+En esta vista se captura el nombre del la nueva área y se presiona el botón guardar para terminar, el botón deshacer pone en blanco los campos, en la esquina superior derecha se encuentra el botón regresar, para volver al listado principal.
+
+==== Modificar área ====
+
+Al presionar el botón del icono del lápiz (modificar registro) se mostrará la siguiente vista
+
+{{ :wiki:areaeditar.png?800 |}}
+\\
+En esta vista se muestra la información como esta guardada y se puede modificar, al terminar se presiona el botón actualizar, el botón deshacer pone en blanco los campos, en la esquina superior derecha, se encuentra un botón para volver a la vista anterior.
+
+==== Eliminar área ====
+
+Al presionar el botón del basurero (eliminar registro), se muestra el siguiente mensaje de confirmación.
+
+{{ :wiki:areaeliminar.png?400 |}}
+\\
+Al dar en la opción aceptar se elimina el registro.
+
+
+

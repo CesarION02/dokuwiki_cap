@@ -1,0 +1,14 @@
+====Horario fecha exacta====
+Esta funcionalidad será utilizada para seleccionar un empleado y ver en una semana especifica, que horario tendrá, los usuarios que tendrán acceso a esta, serán los que tengan personas a su cargo.\\
+Al ingresar se muestra la siguiente pantalla.\\
+{{ :wiki:fechaexacta.png?600 |}}\\
+En esta pantalla en el primer campo se debe seleccionar la semana, en el mismo control te mostrará que días abarca la semana elegida, en el segundo campo el empleado y por último presionar el botón de consultar, esto arrojará la siguiente ventana con la información pedida.\\
+{{ :wiki:fechaexacta2.png?600 |}} \\
+Se muestra el empleado seleccionado y su horario para cada día de la semana seleccionada.\\
+Bajo el titulo de la vista se encuentran 5 botones\\
+*El primero permite elegir el número de registros que se muestran en la tabla.\\
+*El segundo permite copiar la información de la tabla al portapapeles.\\
+*El tercero exporta la información a un archivo csv.\\
+*El cuarto exporta la información a un archivo excel.\\
+*El quinto es para la impresión de la información de la tabla.\\
+Bajo el botón de nuevo, se encuentra un campo para búsqueda, solo se ingresa la palabra a buscar y se buscan coincidencias dentro de la tabla.

@@ -1,0 +1,73 @@
+
+<h2 class="sectionedit1" id="caplink">CAPLINK</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;CAPLINK&quot;,&quot;hid&quot;:&quot;caplink&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-18&quot;} -->
+<h3 class="sectionedit2" id="maven">Maven</h3>
+<div class="level3">
+
+<p>
+El primer paso es descargar maven <a href="https://maven.apache.org/download.cgi" class="urlextern" title="https://maven.apache.org/download.cgi" rel="nofollow">https://maven.apache.org/download.cgi</a>, se debe descomprimir en la carpeta que tu decidas, despues de esto se debe agregar la carpeta \bin al path y crear una nueva variable de entorno.<br/>
+
+Para hacer estas dos acciones lo que se debe hacer es abrir las propiedades (System Properties) pulsando Windows + R y escribir sysdm.cpl.<br/>
+
+Luego en la pestaña Avanzado (Advanced) ingresas a Variables de entorno (Environment Variables)<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Acaplink&amp;media=wiki:maven1.png" class="media" title="wiki:maven1.png"><img src="/dokuwiki/lib/exe/fetch.php?w=400&amp;tok=aee109&amp;media=wiki:maven1.png" class="mediacenter" alt="" width="400" /></a><br/>
+
+agregar al Path C:\…\apache-maven\bin (incluyendo la carpeta \bin).<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Acaplink&amp;media=wiki:maven2.png" class="media" title="wiki:maven2.png"><img src="/dokuwiki/lib/exe/fetch.php?w=400&amp;tok=8e7ff8&amp;media=wiki:maven2.png" class="mediacenter" alt="" width="400" /></a><br/>
+
+En la misma ventana agrega una nueva variable M2_HOME con la ruta donde dejaste maven<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Acaplink&amp;media=wiki:maven3.png" class="media" title="wiki:maven3.png"><img src="/dokuwiki/lib/exe/fetch.php?w=400&amp;tok=fa1934&amp;media=wiki:maven3.png" class="mediacenter" alt="" width="400" /></a><br/>
+
+Ahora se verifica que maven quede correctamente instalado, se pulsa Windows + R y luego escribes cmd para ingresar a la consola de windows, en la consola comprueba con mvn -v . Deberías ver un mensaje parecido. Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2015-04-22T08:57:3
+7-03:00)<br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Maven&quot;,&quot;hid&quot;:&quot;maven&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;19-1048&quot;} -->
+<h3 class="sectionedit3" id="instalacion_caplink">Instalación CAPLink</h3>
+<div class="level3">
+
+<p>
+Se coloca la carpeta de CAPLink dentro de la carpeta de xampp\htdocs, después se ingresa a la carpeta CAPLink se ingresa a la carpeta src, después a main, dentro se ingresa a resourses y dentro a lib, se verifica que se tengan las siguientes librerías.<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> siie32</div>
+</li>
+<li class="level1"><div class="li"> mysql-connector-java-5.1.23-bin</div>
+</li>
+<li class="level1"><div class="li"> jackson-databind-2.10.3</div>
+</li>
+<li class="level1"><div class="li"> jackson-core-2.10.3</div>
+</li>
+<li class="level1"><div class="li"> jackson-annotations-2.10.3</div>
+</li>
+</ul>
+
+<p>
+Si alguna falta, solo bastará con agregarla en esta carpeta. <br/>
+
+A continuación se debe abrir el documento  aplication.proporties, que esta en la carpeta reosourses.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Acaplink&amp;media=wiki:caplink.png" class="media" title="wiki:caplink.png"><img src="/dokuwiki/lib/exe/fetch.php?w=600&amp;tok=91214e&amp;media=wiki:caplink.png" class="mediacenter" alt="" width="600" /></a><br/>
+
+En el primer renglón se debe colocar el puerto que se quiere utilizar, por defecto para el trabajo optimo y no realizar cambios en CAP debería tener el 9000.<br/>
+
+En el tercer renglon, se debe colocar la ruta donde se desee que se guarde la bitacorá de funcionamiento de CAPLink. logging.file = ruta.<br/>
+
+Para poner a correr el sistema hay que abrir el cmd, y dirigirse a la ruta del CAPLink hasta ingresar a la capeta target, donde estará el jar de la aplicación. Se debe teclear el siguiente comando mvnw spring-boot:run y esto empezará con el proceso de activación del sistema, se mostrará el siguiente mensaje.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Acaplink&amp;media=wiki:spring.png" class="media" title="wiki:spring.png"><img src="/dokuwiki/lib/exe/fetch.php?w=600&amp;tok=7bf86a&amp;media=wiki:spring.png" class="mediacenter" alt="" width="600" /></a><br/>
+
+Con esto ya estará activo, y en la misma pantalla de cmd se comenzará a mostrar la bitácora, pero también se creara en la carpeta antes asignada.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Instalaci\u00f3n CAPLink&quot;,&quot;hid&quot;:&quot;instalacion_caplink&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1049-&quot;} -->

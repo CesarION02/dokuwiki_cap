@@ -1,0 +1,35 @@
+====Por Area/completo====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por una o varias áreas como se ve en la imagen.\\
+{{ :wiki:reportechecadasarea.png?600 |}}\\
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Area/complemento====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por una o varias áreas como se ve en la imagen.\\
+{{ :wiki:reportechecadasarea.png?600 |}}\\
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Grupo/completo====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por uno o varios grupos como se ve en la imagen.\\
+{{ :wiki:reportechecadasgrupo.png?600 |}}
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Grupo/complemento====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por uno o varios grupos como se ve en la imagen.\\
+{{ :wiki:reportechecadasgrupo.png?600 |}}
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Departamento/completo====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por uno o varios departamentos como se ve en la imagen.\\
+{{ :wiki:reportechecadasdepartamento.png?600 |}}
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Departamento/complemento====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por uno o varios departamentos como se ve en la imagen.\\
+{{ :wiki:reportechecadasdepartamento.png?600 |}}
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Empleado/completo====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por uno o varios empleados como se ve en la imagen.\\
+{{ :wiki:reportechecadasempleados.png?600 |}}
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Por Empleado/complemento====
+Al ingresar en esta pantalla, se podrá generar el reporte, filtrado por uno o varios empleados como se ve en la imagen.\\
+{{ :wiki:reportechecadasempleados.png?600 |}}
+Se debe seleccionar la fecha de inicio , la fecha de fin, la periodicidad de pago (semanal o quincenal) y las áreas para finalizar presionando el botón generar.\\
+====Pantalla de reporte====
+{{ :wiki:reportechecadasreporte.png?600 |}}\\
+Al generar el reporte esta será la vista, en la cual se cuenta con 5 botones sobre la tabla con la información, el primero de izquierda a derecha es para mostrar, más o menos registros, el segundo es para realizar una copia de los registros, el tercero exporta los datos a un documento csv, el cuarto exporta a un documento excel y el último permite la impresión de los datos.

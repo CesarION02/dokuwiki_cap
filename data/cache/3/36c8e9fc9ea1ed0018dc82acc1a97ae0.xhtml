@@ -1,0 +1,79 @@
+
+<h3 class="sectionedit1" id="respaldos">Respaldos</h3>
+<div class="level3">
+
+<p>
+Los respaldos del sistema CAP incluyen la base de datos y los archivos de programación de turnos.<br/>
+
+Los respaldos se generar apartir de un archivo de configuracion el cual esta dentro de la carpeta del sistema, dentro de la carpeta config, el nombre del archivo es backup.php.<br/>
+
+Dentro del archivo las lineas mas importantes son las siguientes:<br/>
+
+</p>
+<pre class="code">    &#039;include&#039; =&gt; [
+                  base_path(&#039;storage&#039;),
+                 ],</pre>
+
+<p>
+En esta linea lo que se indica es que carpetas son las que se respaldarán, como se menciono al inicio la carpeta necesaria es solo los archivos de programación de turnos.<br/>
+
+</p>
+<pre class="code">    temporary_directory&#039; =&gt; storage_path(&#039;app/backup-temp&#039;),     </pre>
+
+<p>
+En esta linea se coloca la carpeta donde se almacenarán los respaldos.<br/>
+
+Para realizar los respaldos lo unico que se tiene que hacer es abrir la consola, dirigirse a la url del sistema, y usar el siguiente comando.<br/>
+
+php artisan backup:run<br/>
+
+Es importante revisar que la carpeta donde estan los respaldos no este
+Se mostrarán los siguientes mensajes y estará listo el respaldo.
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Arespaldos&amp;media=wiki:respaldos.png" class="media" title="wiki:respaldos.png"><img src="/dokuwiki/lib/exe/fetch.php?w=400&amp;tok=abaf78&amp;media=wiki:respaldos.png" class="mediacenter" alt="" width="400" /></a>
+Los archivos estarán en dentro de la carpeta del sistema en una carpeta llamada storage, en la que buscaremos una carpeta llamada app, al ingresar buscamos una carpeta llamada backup-temp, al ingresar buscamos la carpeta temp y dentro de esta carpeta se encuentra un archivo zip llamado de la siguiente manera año creación -  mes creación - día creación hora creación - minuto de creación - segundo en que se creo, dentro del zip estarán los archivos respaldados y el respaldo de la base de datos, dentro de la carpeta temp también se encuentra la carpeta db-dums donde estará el respaldo de la base de datos.
+</p>
+
+</div>
+
+<h4 id="restablecer_sistema_a_partir_de_respaldos">Restablecer sistema a partir de respaldos</h4>
+<div class="level4">
+
+<p>
+Después de generar un respaldo o a partir de algún respaldo anterior.
+El primer paso para restablecer es abrir el programa github desktop.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Arespaldos&amp;media=wiki:github.png" class="media" title="wiki:github.png"><img src="/dokuwiki/lib/exe/fetch.php?w=600&amp;tok=db429a&amp;media=wiki:github.png" class="mediacenter" alt="" width="600" /></a>
+En la parte superior de la pantalla se debe presionar el primer botón de current Repository, lo cual abrirá la siguiente ventana.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Arespaldos&amp;media=wiki:github1.png" class="media" title="wiki:github1.png"><img src="/dokuwiki/lib/exe/fetch.php?w=200&amp;tok=e14a18&amp;media=wiki:github1.png" class="mediacenter" alt="" width="200" /></a>
+En esta pantalla se debe presionar el botón add y elegir la opción clone repository lo que abrirá la siguiente ventana.<br/>
+
+<a href="/dokuwiki/lib/exe/detail.php?id=wiki%3Arespaldos&amp;media=wiki:github2.png" class="media" title="wiki:github2.png"><img src="/dokuwiki/lib/exe/fetch.php?w=400&amp;tok=98b453&amp;media=wiki:github2.png" class="mediacenter" alt="" width="400" /></a>
+Se debe presionar el botón que dice <abbr title="Uniform Resource Locator">URL</abbr> para que te de la opción de meter la <abbr title="Uniform Resource Locator">URL</abbr> del sistema como se muestra en la imagen, <a href="https://github.com/CesarION02/CAP" class="urlextern" title="https://github.com/CesarION02/CAP" rel="nofollow">https://github.com/CesarION02/CAP</a> y en el segundo cuadro de texto se coloca la ruta donde se pondrá la carpeta del sistema.<br/>
+
+<br/>
+
+El segundo paso sera ingresar al CMD, ingresar a la ruta del sistema, y colocar los siguientes comandos:
+</p>
+<ul>
+<li class="level1"><div class="li"> composer update - este comando es el que crea las carpetas faltantes para que el sistema pueda ser utilizado.</div>
+</li>
+<li class="level1"><div class="li"> php artisan storage:link - este comando es para poder usar la carpeta de storage para guardar los documentos creados por el sistema (programación de turnos).</div>
+</li>
+<li class="level1"><div class="li"> composer require spatie/laravel-backup - este comando es para poner en funcionamiento los respaldos para poder hacerlos desde el nuevo sistema.</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<br/>
+
+El tercer paso es crear una base de datos MySQL con el nombre checador, después abrir el script de la base de datos respaldada, y correr el script.<br/>
+
+El cuarto paso es abrir el documento zip del respaldo y descomprimirlo en alguna ubicación elegida, despues ingresar a la carpeta xampp que se descomprimio, dentro entrar a htdocs, dentro a la carpeta cap, dentro ingresar a la carpeta storage, dentro la carpeta app y dentro la carpeta public , copiar todos los documentos dentro de la carpeta, e ir a la carpeta del nuevo sistema abrir la ubicacion storage, buscar la carpeta app, dentro buscar la carpeta public y ahí copiar todos los documentos.<br/>
+
+Con estos pasos el sistema estará listo para utilizarse.
+</p>
+
+</div>
